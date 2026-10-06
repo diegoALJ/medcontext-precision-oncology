@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+data/raw/
+data/private/
+
+results/*.pkl
+results/*.joblib
+results/*.pt
+results/*.bin

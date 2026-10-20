@@ -1,4 +1,4 @@
-# MedContext Precision Oncology
+# MedContext Precision Oncology  🧬
 
 **MedContext Precision Oncology** is a lightweight neuro-symbolic pipeline that converts unstructured precision-oncology reports into **structured, contextualized clinical facts**.
 

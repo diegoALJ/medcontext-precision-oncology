@@ -1,0 +1,550 @@
+report_id,entity,normalized_entity,entity_type,disease,template_family,start_char,end_char,context_text,context_start,context_end,entity_start_in_context,entity_end_in_context,num_sentences
+R0001,R140Q IDH2,IDH2 p.R140Q,VARIANT,AML,NEGATIVE,3,13,No R140Q IDH2 was detected.,0,27,3,13,1
+R0001,IDH2,IDH2,GENE,AML,CONFLICTING,28,32,"IDH2 was identified at diagnosis, but repeat sequencing did not detect IDH2.",28,104,0,4,1
+R0001,IDH2,IDH2,GENE,AML,CONFLICTING,99,103,"IDH2 was identified at diagnosis, but repeat sequencing did not detect IDH2.",28,104,71,75,1
+R0001,BCR,BCR,GENE,B_ALL,POSITIVE,105,108,BCR was detected.,105,122,0,3,1
+R0001,FLT3-TKD,FLT3-TKD,VARIANT,APL,NEGATIVE,159,167,Molecular analysis did not identify FLT3-TKD.,123,168,36,44,1
+R0001,RARA,RARA,GENE,APL,FAMILY,215,219,A family member was previously found to carry RARA.,169,220,46,50,1
+R0002,PD-L1 expression,PD-L1 TPS,BIOMARKER,NSCLC,HISTORICAL,0,16,PD-L1 expression was previously identified.,0,43,0,16,1
+R0002,ALK,ALK,GENE,NSCLC,POSITIVE,72,75,Molecular testing confirmed ALK.,44,76,28,31,1
+R0002,RARA,RARA,GENE,APL,HISTORICAL,77,81,RARA was previously identified.,77,108,0,4,1
+R0003,PML,PML,GENE,APL,POSITIVE,0,3,PML was detected.,0,17,0,3,1
+R0003,JAK2,JAK2,GENE,B_ALL,UNCERTAIN,45,49,Findings are suggestive of JAK2.,18,50,27,31,1
+R0003,IDH1 p.R132C,IDH1 p.R132C,VARIANT,AML,UNCERTAIN,78,90,Findings are suggestive of IDH1 p.R132C.,51,91,27,39,1
+R0004,RET rearrangement,RET fusion,FUSION,NSCLC,FAMILY,46,63,A family member was previously found to carry RET rearrangement.,0,64,46,63,1
+R0004,IDH2 R172K,IDH2 p.R172K,VARIANT,AML,FAMILY,111,121,A family member was previously found to carry IDH2 R172K.,65,122,46,56,1
+R0004,ETV6/RUNX1 fusion,ETV6::RUNX1,FUSION,B_ALL,NEGATIVE,126,143,No ETV6/RUNX1 fusion was detected.,123,157,3,20,1
+R0004,FLT3 internal tandem duplication,FLT3-ITD,VARIANT,AML,POSITIVE,158,190,FLT3 internal tandem duplication was detected.,158,204,0,32,1
+R0005,FLT3 ITD,FLT3-ITD,VARIANT,AML,UNCERTAIN,27,35,Findings are suggestive of FLT3 ITD.,0,36,27,35,1
+R0005,FLT3,FLT3,GENE,APL,UNCERTAIN,48,52,A possible FLT3 was identified.,37,68,11,15,1
+R0005,IDH1 p.R132H,IDH1 p.R132H,VARIANT,AML,UNCERTAIN,96,108,Findings are suggestive of IDH1 p.R132H.,69,109,27,39,1
+R0005,ETV6/RUNX1 fusion,ETV6::RUNX1,FUSION,B_ALL,UNCERTAIN,137,154,Findings are suggestive of ETV6/RUNX1 fusion.,110,155,27,44,1
+R0006,MLL,KMT2A,GENE,AML,HISTORICAL,0,3,MLL was previously identified.,0,30,0,3,1
+R0006,RUNX1/RUNX1T1 fusion,RUNX1::RUNX1T1,FUSION,AML,CONFLICTING,31,51,"RUNX1/RUNX1T1 fusion was previously detected, but current testing was negative for RUNX1/RUNX1T1 fusion.",31,135,0,20,1
+R0006,RUNX1/RUNX1T1 fusion,RUNX1::RUNX1T1,FUSION,AML,CONFLICTING,114,134,"RUNX1/RUNX1T1 fusion was previously detected, but current testing was negative for RUNX1/RUNX1T1 fusion.",31,135,83,103,1
+R0006,RET rearrangement,RET fusion,FUSION,NSCLC,CONFLICTING,136,153,"RET rearrangement was previously detected, but current testing was negative for RET rearrangement.",136,234,0,17,1
+R0006,RET rearrangement,RET fusion,FUSION,NSCLC,CONFLICTING,216,233,"RET rearrangement was previously detected, but current testing was negative for RET rearrangement.",136,234,80,97,1
+R0006,FLT3-TKD,FLT3-TKD,VARIANT,APL,NEGATIVE,260,268,Testing was negative for FLT3-TKD.,235,269,25,33,1
+R0006,bZIP CEBPA mutation,CEBPA bZIP mutation,VARIANT,AML,HISTORICAL,270,289,bZIP CEBPA mutation was detected at diagnosis.,270,316,0,19,1
+R0007,IKZF1,IKZF1,GENE,B_ALL,HISTORICAL,0,5,IKZF1 was detected at diagnosis.,0,32,0,5,1
+R0007,PML,PML,GENE,APL,UNCERTAIN,33,36,PML cannot be excluded.,33,56,0,3,1
+R0007,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,CONFLICTING,57,67,"BRAF V600E was identified at diagnosis, but repeat sequencing did not detect BRAF V600E.",57,145,0,10,1
+R0007,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,CONFLICTING,134,144,"BRAF V600E was identified at diagnosis, but repeat sequencing did not detect BRAF V600E.",57,145,77,87,1
+R0008,BCR::ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,HISTORICAL,0,20,BCR::ABL1 transcript was detected at diagnosis.,0,47,0,20,1
+R0008,JAK-STAT pathway alteration,JAK-STAT pathway alteration,VARIANT,B_ALL,POSITIVE,76,103,Molecular testing confirmed JAK-STAT pathway alteration.,48,104,28,55,1
+R0008,RARA,RARA,GENE,APL,NEGATIVE,141,145,Molecular analysis did not identify RARA.,105,146,36,40,1
+R0008,TP53 R248Q,TP53 p.R248Q,VARIANT,AML,POSITIVE,147,157,TP53 R248Q was identified.,147,173,0,10,1
+R0008,ERBB2 activating mutation,HER2 activating mutation,VARIANT,NSCLC,FAMILY,220,245,A family member was previously found to carry ERBB2 activating mutation.,174,246,46,71,1
+R0009,ERBB2 expression,HER2 expression,BIOMARKER,NSCLC,UNCERTAIN,11,27,A possible ERBB2 expression was identified.,0,43,11,27,1
+R0009,NPM1,NPM1,GENE,AML,POSITIVE,44,48,NPM1 was identified.,44,64,0,4,1
+R0009,IDH2 R140Q,IDH2 p.R140Q,VARIANT,AML,NEGATIVE,68,78,No IDH2 R140Q was detected.,65,92,3,13,1
+R0009,RET-rearranged,RET fusion,FUSION,NSCLC,CONFLICTING,93,107,"RET-rearranged was identified at diagnosis, but repeat sequencing did not detect RET-rearranged.",93,189,0,14,1
+R0009,RET-rearranged,RET fusion,FUSION,NSCLC,CONFLICTING,174,188,"RET-rearranged was identified at diagnosis, but repeat sequencing did not detect RET-rearranged.",93,189,81,95,1
+R0010,CBFB-MYH11,CBFB::MYH11,FUSION,AML,NEGATIVE,3,13,No CBFB-MYH11 was detected.,0,27,3,13,1
+R0010,MET exon 14 skip,MET exon 14 skipping,VARIANT,NSCLC,FAMILY,57,73,The patient's mother carried MET exon 14 skip.,28,74,29,45,1
+R0010,IDH1 R132C,IDH1 p.R132C,VARIANT,AML,FAMILY,104,114,The patient's father carried IDH1 R132C.,75,115,29,39,1
+R0010,ETV6,ETV6,GENE,B_ALL,POSITIVE,116,120,ETV6 was identified.,116,136,0,4,1
+R0010,NPM1 MRD,NPM1 molecular MRD,BIOMARKER,AML,UNCERTAIN,137,145,NPM1 MRD cannot be excluded.,137,165,0,8,1
+R0011,FLT3-ITD,FLT3-ITD,VARIANT,AML,FAMILY,29,37,The patient's mother carried FLT3-ITD.,0,38,29,37,1
+R0011,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,CONFLICTING,39,48,"KRAS G12C was previously detected, but current testing was negative for KRAS G12C.",39,121,0,9,1
+R0011,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,CONFLICTING,111,120,"KRAS G12C was previously detected, but current testing was negative for KRAS G12C.",39,121,72,81,1
+R0011,c-KIT,KIT,GENE,AML,UNCERTAIN,122,127,c-KIT cannot be excluded.,122,147,0,5,1
+R0012,NPM1 molecular MRD,NPM1 molecular MRD,BIOMARKER,AML,FAMILY,29,47,The patient's mother carried NPM1 molecular MRD.,0,48,29,47,1
+R0012,RUNX1,RUNX1,GENE,B_ALL,NEGATIVE,52,57,No RUNX1 was detected.,49,71,3,8,1
+R0012,BCR::ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,UNCERTAIN,99,119,Findings are suggestive of BCR::ABL1 transcript.,72,120,27,47,1
+R0012,BCR-ABL1,BCR::ABL1,FUSION,B_ALL,FAMILY,167,175,A family member was previously found to carry BCR-ABL1.,121,176,46,54,1
+R0012,BRAF,BRAF,GENE,NSCLC,NEGATIVE,180,184,No BRAF was detected.,177,198,3,7,1
+R0013,DNMT3A,DNMT3A,GENE,AML,POSITIVE,0,6,DNMT3A was identified.,0,22,0,6,1
+R0013,FLT3,FLT3,GENE,APL,CONFLICTING,23,27,"FLT3 was previously detected, but current testing was negative for FLT3.",23,95,0,4,1
+R0013,FLT3,FLT3,GENE,APL,CONFLICTING,90,94,"FLT3 was previously detected, but current testing was negative for FLT3.",23,95,67,71,1
+R0013,KIT,KIT,GENE,AML,FAMILY,142,145,A family member was previously found to carry KIT.,96,146,46,49,1
+R0013,TP53,TP53,GENE,AML,FAMILY,176,180,The patient's mother carried TP53.,147,181,29,33,1
+R0013,CRLF2,CRLF2,GENE,B_ALL,HISTORICAL,182,187,CRLF2 was detected at diagnosis.,182,214,0,5,1
+R0014,IDH1 R132H,IDH1 p.R132H,VARIANT,AML,HISTORICAL,0,10,IDH1 R132H was previously identified.,0,37,0,10,1
+R0014,KRAS,KRAS,GENE,NSCLC,CONFLICTING,38,42,"KRAS was previously detected, but current testing was negative for KRAS.",38,110,0,4,1
+R0014,KRAS,KRAS,GENE,NSCLC,CONFLICTING,105,109,"KRAS was previously detected, but current testing was negative for KRAS.",38,110,67,71,1
+R0014,PAX5 P80R,PAX5 p.P80R,VARIANT,B_ALL,POSITIVE,139,148,Molecular testing confirmed PAX5 P80R.,111,149,28,37,1
+R0015,IDH1 p.R132C,IDH1 p.R132C,VARIANT,AML,HISTORICAL,0,12,IDH1 p.R132C was previously identified.,0,39,0,12,1
+R0015,FLT3 TKD,FLT3-TKD,VARIANT,APL,NEGATIVE,65,73,Testing was negative for FLT3 TKD.,40,74,25,33,1
+R0015,MRD,MRD,BIOMARKER,AML,NEGATIVE,100,103,Testing was negative for MRD.,75,104,25,28,1
+R0015,RET fusion,RET fusion,FUSION,NSCLC,FAMILY,134,144,The patient's mother carried RET fusion.,105,145,29,39,1
+R0016,PD-L1 tumor proportion score,PD-L1 TPS,BIOMARKER,NSCLC,HISTORICAL,0,28,PD-L1 tumor proportion score was previously identified.,0,55,0,28,1
+R0016,NPM1,NPM1,GENE,AML,NEGATIVE,59,63,No NPM1 was detected.,56,77,3,7,1
+R0016,FLT3 D835Y,FLT3 p.D835Y,VARIANT,AML,NEGATIVE,81,91,No FLT3 D835Y was detected.,78,105,3,13,1
+R0016,FLT3 ITD,FLT3-ITD,VARIANT,APL,HISTORICAL,106,114,FLT3 ITD was previously identified.,106,141,0,8,1
+R0016,RUNX1-RUNX1T1,RUNX1::RUNX1T1,FUSION,AML,UNCERTAIN,169,182,Findings are suggestive of RUNX1-RUNX1T1.,142,183,27,40,1
+R0017,KRAS p.G12C,KRAS p.G12C,VARIANT,NSCLC,POSITIVE,28,39,Molecular testing confirmed KRAS p.G12C.,0,40,28,39,1
+R0017,NPM1 mutation,NPM1 mutation,VARIANT,AML,UNCERTAIN,41,54,NPM1 mutation cannot be excluded.,41,74,0,13,1
+R0017,minimal residual disease,MRD,BIOMARKER,AML,FAMILY,121,145,A family member was previously found to carry minimal residual disease.,75,146,46,70,1
+R0017,KMT2A,KMT2A,GENE,B_ALL,FAMILY,176,181,The patient's mother carried KMT2A.,147,182,29,34,1
+R0017,PML,PML,GENE,APL,FAMILY,212,215,The patient's mother carried PML.,183,216,29,32,1
+R0018,KIT,KIT,GENE,AML,POSITIVE,28,31,Molecular testing confirmed KIT.,0,32,28,31,1
+R0018,FLT3-ITD,FLT3-ITD,VARIANT,APL,FAMILY,79,87,A family member was previously found to carry FLT3-ITD.,33,88,46,54,1
+R0018,BCR-ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,POSITIVE,117,136,Molecular testing confirmed BCR-ABL1 transcript.,89,137,28,47,1
+R0019,ALK-rearranged,ALK rearrangement,FUSION,NSCLC,UNCERTAIN,0,14,ALK-rearranged cannot be excluded.,0,34,0,14,1
+R0019,IKZF1,IKZF1,GENE,B_ALL,CONFLICTING,35,40,"IKZF1 was identified at diagnosis, but repeat sequencing did not detect IKZF1.",35,113,0,5,1
+R0019,IKZF1,IKZF1,GENE,B_ALL,CONFLICTING,107,112,"IKZF1 was identified at diagnosis, but repeat sequencing did not detect IKZF1.",35,113,72,77,1
+R0019,PML::RARA transcript,PML::RARA transcript,BIOMARKER,APL,UNCERTAIN,114,134,PML::RARA transcript cannot be excluded.,114,154,0,20,1
+R0019,FLT3 mutation status,FLT3 mutation status,BIOMARKER,AML,HISTORICAL,155,175,FLT3 mutation status was detected at diagnosis.,155,202,0,20,1
+R0019,FLT3-ITD,FLT3-ITD,VARIANT,APL,FAMILY,249,257,A family member was previously found to carry FLT3-ITD.,203,258,46,54,1
+R0020,TP53 R175H,TP53 p.R175H,VARIANT,AML,UNCERTAIN,0,10,TP53 R175H cannot be excluded.,0,30,0,10,1
+R0020,IKZF1 N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,HISTORICAL,31,42,IKZF1 N159Y was present on initial molecular testing.,31,84,0,11,1
+R0020,KIT,KIT,GENE,AML,CONFLICTING,85,88,"KIT was identified at diagnosis, but repeat sequencing did not detect KIT.",85,159,0,3,1
+R0020,KIT,KIT,GENE,AML,CONFLICTING,155,158,"KIT was identified at diagnosis, but repeat sequencing did not detect KIT.",85,159,70,73,1
+R0020,FLT3-TKD,FLT3-TKD,VARIANT,APL,CONFLICTING,160,168,"FLT3-TKD was previously detected, but current testing was negative for FLT3-TKD.",160,240,0,8,1
+R0020,FLT3-TKD,FLT3-TKD,VARIANT,APL,CONFLICTING,231,239,"FLT3-TKD was previously detected, but current testing was negative for FLT3-TKD.",160,240,71,79,1
+R0021,IDH2 R140Q,IDH2 p.R140Q,VARIANT,AML,UNCERTAIN,27,37,Findings are suggestive of IDH2 R140Q.,0,38,27,37,1
+R0021,R132C IDH1,IDH1 p.R132C,VARIANT,AML,NEGATIVE,64,74,Testing was negative for R132C IDH1.,39,75,25,35,1
+R0021,ERBB2 expression,HER2 expression,BIOMARKER,NSCLC,NEGATIVE,112,128,Molecular analysis did not identify ERBB2 expression.,76,129,36,52,1
+R0021,mutated NPM1,NPM1 mutation,VARIANT,AML,UNCERTAIN,141,153,A possible mutated NPM1 was identified.,130,169,11,23,1
+R0022,RUNX1,RUNX1,GENE,AML,POSITIVE,0,5,RUNX1 was identified.,0,21,0,5,1
+R0022,D835Y FLT3,FLT3 p.D835Y,VARIANT,AML,NEGATIVE,47,57,Testing was negative for D835Y FLT3.,22,58,25,35,1
+R0022,ROS1,ROS1,GENE,NSCLC,NEGATIVE,95,99,Molecular analysis did not identify ROS1.,59,100,36,40,1
+R0022,BCR,BCR,GENE,B_ALL,CONFLICTING,101,104,"BCR was previously detected, but current testing was negative for BCR.",101,171,0,3,1
+R0022,BCR,BCR,GENE,B_ALL,CONFLICTING,167,170,"BCR was previously detected, but current testing was negative for BCR.",101,171,66,69,1
+R0023,MLL,KMT2A,GENE,AML,POSITIVE,28,31,Molecular testing confirmed MLL.,0,32,28,31,1
+R0023,NPM1 mutation,NPM1 mutation,VARIANT,AML,FAMILY,62,75,The patient's father carried NPM1 mutation.,33,76,29,42,1
+R0023,PD-L1 TPS,PD-L1 TPS,BIOMARKER,NSCLC,NEGATIVE,102,111,Testing was negative for PD-L1 TPS.,77,112,25,34,1
+R0024,CEBPA,CEBPA,GENE,AML,CONFLICTING,0,5,"CEBPA was identified at diagnosis, but repeat sequencing did not detect CEBPA.",0,78,0,5,1
+R0024,CEBPA,CEBPA,GENE,AML,CONFLICTING,72,77,"CEBPA was identified at diagnosis, but repeat sequencing did not detect CEBPA.",0,78,72,77,1
+R0024,PAX5 P80R,PAX5 p.P80R,VARIANT,B_ALL,FAMILY,125,134,A family member was previously found to carry PAX5 P80R.,79,135,46,55,1
+R0024,FLT3 mutation status,FLT3 mutation status,BIOMARKER,AML,CONFLICTING,136,156,"FLT3 mutation status was previously detected, but current testing was negative for FLT3 mutation status.",136,240,0,20,1
+R0024,FLT3 mutation status,FLT3 mutation status,BIOMARKER,AML,CONFLICTING,219,239,"FLT3 mutation status was previously detected, but current testing was negative for FLT3 mutation status.",136,240,83,103,1
+R0024,FLT3-TKD,FLT3-TKD,VARIANT,APL,NEGATIVE,266,274,Testing was negative for FLT3-TKD.,241,275,25,33,1
+R0025,CBFB/MYH11 fusion,CBFB::MYH11,FUSION,AML,CONFLICTING,0,17,"CBFB/MYH11 fusion was previously detected, but current testing was negative for CBFB/MYH11 fusion.",0,98,0,17,1
+R0025,CBFB/MYH11 fusion,CBFB::MYH11,FUSION,AML,CONFLICTING,80,97,"CBFB/MYH11 fusion was previously detected, but current testing was negative for CBFB/MYH11 fusion.",0,98,80,97,1
+R0025,CRLF2,CRLF2,GENE,B_ALL,UNCERTAIN,126,131,Findings are suggestive of CRLF2.,99,132,27,32,1
+R0025,EGFR,EGFR,GENE,NSCLC,POSITIVE,133,137,EGFR was detected.,133,151,0,4,1
+R0026,RARA,RARA,GENE,APL,UNCERTAIN,0,4,RARA cannot be excluded.,0,24,0,4,1
+R0026,NPM1 transcript MRD,NPM1 molecular MRD,BIOMARKER,AML,POSITIVE,25,44,NPM1 transcript MRD was detected.,25,58,0,19,1
+R0026,RET,RET,GENE,NSCLC,HISTORICAL,59,62,RET was previously identified.,59,89,0,3,1
+R0026,IKZF1 N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,POSITIVE,90,101,IKZF1 N159Y was identified.,90,117,0,11,1
+R0027,ERBB2 activating mutation,HER2 activating mutation,VARIANT,NSCLC,POSITIVE,0,25,ERBB2 activating mutation was detected.,0,39,0,25,1
+R0027,BCR-ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,FAMILY,69,88,The patient's mother carried BCR-ABL1 transcript.,40,89,29,48,1
+R0027,RET-rearranged,RET fusion,FUSION,NSCLC,POSITIVE,90,104,RET-rearranged was identified.,90,120,0,14,1
+R0027,CRLF2,CRLF2,GENE,B_ALL,UNCERTAIN,132,137,A possible CRLF2 was identified.,121,153,11,16,1
+R0027,IDH2,IDH2,GENE,AML,FAMILY,183,187,The patient's father carried IDH2.,154,188,29,33,1
+R0028,measurable residual disease,MRD,BIOMARKER,AML,FAMILY,46,73,A family member was previously found to carry measurable residual disease.,0,74,46,73,1
+R0028,PML-RARA,PML::RARA,FUSION,APL,CONFLICTING,75,83,"PML-RARA was identified at diagnosis, but repeat sequencing did not detect PML-RARA.",75,159,0,8,1
+R0028,PML-RARA,PML::RARA,FUSION,APL,CONFLICTING,150,158,"PML-RARA was identified at diagnosis, but repeat sequencing did not detect PML-RARA.",75,159,75,83,1
+R0028,CEBPA,CEBPA,GENE,AML,HISTORICAL,160,165,CEBPA was present on initial molecular testing.,160,207,0,5,1
+R0028,KRAS,KRAS,GENE,NSCLC,UNCERTAIN,235,239,Findings are suggestive of KRAS.,208,240,27,31,1
+R0028,FLT3,FLT3,GENE,AML,POSITIVE,269,273,Molecular testing confirmed FLT3.,241,274,28,32,1
+R0029,EGFR,EGFR,GENE,NSCLC,FAMILY,29,33,The patient's mother carried EGFR.,0,34,29,33,1
+R0029,PAX5,PAX5,GENE,B_ALL,HISTORICAL,35,39,PAX5 was present on initial molecular testing.,35,81,0,4,1
+R0029,BCR::ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,CONFLICTING,82,102,"BCR::ABL1 transcript was identified at diagnosis, but repeat sequencing did not detect BCR::ABL1 transcript.",82,190,0,20,1
+R0029,BCR::ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,CONFLICTING,169,189,"BCR::ABL1 transcript was identified at diagnosis, but repeat sequencing did not detect BCR::ABL1 transcript.",82,190,87,107,1
+R0029,KMT2A,KMT2A,GENE,B_ALL,HISTORICAL,191,196,KMT2A was previously identified.,191,223,0,5,1
+R0030,FLT3 status,FLT3 mutation status,BIOMARKER,AML,HISTORICAL,0,11,FLT3 status was present on initial molecular testing.,0,53,0,11,1
+R0030,KRAS,KRAS,GENE,NSCLC,NEGATIVE,90,94,Molecular analysis did not identify KRAS.,54,95,36,40,1
+R0030,PAX5,PAX5,GENE,B_ALL,NEGATIVE,121,125,Testing was negative for PAX5.,96,126,25,29,1
+R0030,HER2,ERBB2,GENE,NSCLC,FAMILY,156,160,The patient's mother carried HER2.,127,161,29,33,1
+R0031,RUNX1,RUNX1,GENE,B_ALL,NEGATIVE,3,8,No RUNX1 was detected.,0,22,3,8,1
+R0031,RARA,RARA,GENE,APL,NEGATIVE,59,63,Molecular analysis did not identify RARA.,23,64,36,40,1
+R0031,NPM1 molecular MRD,NPM1 molecular MRD,BIOMARKER,AML,POSITIVE,65,83,NPM1 molecular MRD was identified.,65,99,0,18,1
+R0032,measurable residual disease,MRD,BIOMARKER,AML,NEGATIVE,36,63,Molecular analysis did not identify measurable residual disease.,0,64,36,63,1
+R0032,KMT2A rearrangement,KMT2A rearrangement,FUSION,B_ALL,POSITIVE,65,84,KMT2A rearrangement was identified.,65,100,0,19,1
+R0032,BRAF p.V600E,BRAF p.V600E,VARIANT,NSCLC,NEGATIVE,137,149,Molecular analysis did not identify BRAF p.V600E.,101,150,36,48,1
+R0032,BCR-ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,FAMILY,180,199,The patient's mother carried BCR-ABL1 transcript.,151,200,29,48,1
+R0032,FLT3-TKD,FLT3-TKD,VARIANT,APL,FAMILY,230,238,The patient's mother carried FLT3-TKD.,201,239,29,37,1
+R0033,TP53 R248Q,TP53 p.R248Q,VARIANT,AML,HISTORICAL,0,10,TP53 R248Q was present on initial molecular testing.,0,52,0,10,1
+R0033,ERBB2,ERBB2,GENE,NSCLC,HISTORICAL,53,58,ERBB2 was present on initial molecular testing.,53,100,0,5,1
+R0033,ROS1 rearrangement,ROS1 fusion,FUSION,NSCLC,HISTORICAL,101,119,ROS1 rearrangement was previously identified.,101,146,0,18,1
+R0033,IKZF1,IKZF1,GENE,B_ALL,NEGATIVE,183,188,Molecular analysis did not identify IKZF1.,147,189,36,41,1
+R0034,FLT3 ITD,FLT3-ITD,VARIANT,APL,CONFLICTING,0,8,"FLT3 ITD was previously detected, but current testing was negative for FLT3 ITD.",0,80,0,8,1
+R0034,FLT3 ITD,FLT3-ITD,VARIANT,APL,CONFLICTING,71,79,"FLT3 ITD was previously detected, but current testing was negative for FLT3 ITD.",0,80,71,79,1
+R0034,BCR,BCR,GENE,B_ALL,UNCERTAIN,92,95,A possible BCR was identified.,81,111,11,14,1
+R0034,BRAF,BRAF,GENE,NSCLC,FAMILY,141,145,The patient's mother carried BRAF.,112,146,29,33,1
+R0034,KMT2A,KMT2A,GENE,AML,NEGATIVE,172,177,Testing was negative for KMT2A.,147,178,25,30,1
+R0035,mutated NPM1,NPM1 mutation,VARIANT,AML,UNCERTAIN,11,23,A possible mutated NPM1 was identified.,0,39,11,23,1
+R0035,PML,PML,GENE,APL,HISTORICAL,40,43,PML was detected at diagnosis.,40,70,0,3,1
+R0035,c-KIT,KIT,GENE,AML,HISTORICAL,71,76,c-KIT was present on initial molecular testing.,71,118,0,5,1
+R0035,ALK,ALK,GENE,NSCLC,CONFLICTING,119,122,"ALK was identified at diagnosis, but repeat sequencing did not detect ALK.",119,193,0,3,1
+R0035,ALK,ALK,GENE,NSCLC,CONFLICTING,189,192,"ALK was identified at diagnosis, but repeat sequencing did not detect ALK.",119,193,70,73,1
+R0035,EGFR,EGFR,GENE,NSCLC,HISTORICAL,194,198,EGFR was previously identified.,194,225,0,4,1
+R0036,KMT2A rearrangement,KMT2A rearrangement,FUSION,B_ALL,FAMILY,29,48,The patient's father carried KMT2A rearrangement.,0,49,29,48,1
+R0036,ALK,ALK,GENE,NSCLC,NEGATIVE,75,78,Testing was negative for ALK.,50,79,25,28,1
+R0036,RET fusion,RET fusion,FUSION,NSCLC,HISTORICAL,80,90,RET fusion was previously identified.,80,117,0,10,1
+R0036,PD-L1 expression,PD-L1 TPS,BIOMARKER,NSCLC,UNCERTAIN,145,161,Findings are suggestive of PD-L1 expression.,118,162,27,43,1
+R0037,RUNX1-RUNX1T1,RUNX1::RUNX1T1,FUSION,AML,POSITIVE,28,41,Molecular testing confirmed RUNX1-RUNX1T1.,0,42,28,41,1
+R0037,ERBB2,ERBB2,GENE,NSCLC,FAMILY,72,77,The patient's mother carried ERBB2.,43,78,29,34,1
+R0037,TP53 R175H,TP53 p.R175H,VARIANT,AML,CONFLICTING,79,89,"TP53 R175H was previously detected, but current testing was negative for TP53 R175H.",79,163,0,10,1
+R0037,TP53 R175H,TP53 p.R175H,VARIANT,AML,CONFLICTING,152,162,"TP53 R175H was previously detected, but current testing was negative for TP53 R175H.",79,163,73,83,1
+R0037,RET fusion,RET fusion,FUSION,NSCLC,HISTORICAL,164,174,RET fusion was detected at diagnosis.,164,201,0,10,1
+R0038,ETV6-RUNX1,ETV6::RUNX1,FUSION,B_ALL,UNCERTAIN,11,21,A possible ETV6-RUNX1 was identified.,0,37,11,21,1
+R0038,PAX5,PAX5,GENE,B_ALL,UNCERTAIN,49,53,A possible PAX5 was identified.,38,69,11,15,1
+R0038,PML,PML,GENE,APL,POSITIVE,70,73,PML was detected.,70,87,0,3,1
+R0038,RET,RET,GENE,NSCLC,CONFLICTING,88,91,"RET was identified at diagnosis, but repeat sequencing did not detect RET.",88,162,0,3,1
+R0038,RET,RET,GENE,NSCLC,CONFLICTING,158,161,"RET was identified at diagnosis, but repeat sequencing did not detect RET.",88,162,70,73,1
+R0039,KIT,KIT,GENE,AML,NEGATIVE,3,6,No KIT was detected.,0,20,3,6,1
+R0039,CEBPA,CEBPA,GENE,AML,FAMILY,50,55,The patient's mother carried CEBPA.,21,56,29,34,1
+R0039,IDH2,IDH2,GENE,AML,NEGATIVE,93,97,Molecular analysis did not identify IDH2.,57,98,36,40,1
+R0040,PML,PML,GENE,APL,UNCERTAIN,27,30,Findings are suggestive of PML.,0,31,27,30,1
+R0040,ERBB2,ERBB2,GENE,NSCLC,FAMILY,61,66,The patient's mother carried ERBB2.,32,67,29,34,1
+R0040,PML::RARA,PML::RARA,FUSION,APL,UNCERTAIN,95,104,Findings are suggestive of PML::RARA.,68,105,27,36,1
+R0041,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,0,5,"RUNX1 was previously detected, but current testing was negative for RUNX1.",0,74,0,5,1
+R0041,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,68,73,"RUNX1 was previously detected, but current testing was negative for RUNX1.",0,74,68,73,1
+R0041,ETV6/RUNX1 fusion,ETV6::RUNX1,FUSION,B_ALL,FAMILY,121,138,A family member was previously found to carry ETV6/RUNX1 fusion.,75,139,46,63,1
+R0041,MRD,MRD,BIOMARKER,B_ALL,NEGATIVE,176,179,Molecular analysis did not identify MRD.,140,180,36,39,1
+R0042,R172K IDH2,IDH2 p.R172K,VARIANT,AML,HISTORICAL,0,10,R172K IDH2 was previously identified.,0,37,0,10,1
+R0042,CEBPA,CEBPA,GENE,AML,POSITIVE,38,43,CEBPA was detected.,38,57,0,5,1
+R0042,IKZF1 N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,HISTORICAL,58,69,IKZF1 N159Y was detected at diagnosis.,58,96,0,11,1
+R0042,RET rearrangement,RET fusion,FUSION,NSCLC,HISTORICAL,97,114,RET rearrangement was present on initial molecular testing.,97,156,0,17,1
+R0043,NPM1-mutated,NPM1 mutation,VARIANT,AML,CONFLICTING,0,12,"NPM1-mutated was identified at diagnosis, but repeat sequencing did not detect NPM1-mutated.",0,92,0,12,1
+R0043,NPM1-mutated,NPM1 mutation,VARIANT,AML,CONFLICTING,79,91,"NPM1-mutated was identified at diagnosis, but repeat sequencing did not detect NPM1-mutated.",0,92,79,91,1
+R0043,KRAS,KRAS,GENE,NSCLC,HISTORICAL,93,97,KRAS was present on initial molecular testing.,93,139,0,4,1
+R0043,CBFB-MYH11,CBFB::MYH11,FUSION,AML,FAMILY,169,179,The patient's father carried CBFB-MYH11.,140,180,29,39,1
+R0043,ALK rearrangement,ALK rearrangement,FUSION,NSCLC,NEGATIVE,206,223,Testing was negative for ALK rearrangement.,181,224,25,42,1
+R0044,FLT3 TKD,FLT3-TKD,VARIANT,APL,POSITIVE,0,8,FLT3 TKD was identified.,0,24,0,8,1
+R0044,HER2,ERBB2,GENE,NSCLC,NEGATIVE,28,32,No HER2 was detected.,25,46,3,7,1
+R0044,ETV6-RUNX1,ETV6::RUNX1,FUSION,B_ALL,UNCERTAIN,58,68,A possible ETV6-RUNX1 was identified.,47,84,11,21,1
+R0044,JAK2,JAK2,GENE,B_ALL,UNCERTAIN,112,116,Findings are suggestive of JAK2.,85,117,27,31,1
+R0045,ALK fusion,ALK rearrangement,FUSION,NSCLC,NEGATIVE,25,35,Testing was negative for ALK fusion.,0,36,25,35,1
+R0045,measurable residual disease,MRD,BIOMARKER,AML,HISTORICAL,37,64,measurable residual disease was detected at diagnosis.,37,91,0,27,1
+R0045,FLT3 ITD,FLT3-ITD,VARIANT,AML,CONFLICTING,92,100,"FLT3 ITD was identified at diagnosis, but repeat sequencing did not detect FLT3 ITD.",92,176,0,8,1
+R0045,FLT3 ITD,FLT3-ITD,VARIANT,AML,CONFLICTING,167,175,"FLT3 ITD was identified at diagnosis, but repeat sequencing did not detect FLT3 ITD.",92,176,75,83,1
+R0046,IDH1,IDH1,GENE,AML,HISTORICAL,0,4,IDH1 was previously identified.,0,31,0,4,1
+R0046,D835Y FLT3,FLT3 p.D835Y,VARIANT,AML,CONFLICTING,32,42,"D835Y FLT3 was identified at diagnosis, but repeat sequencing did not detect D835Y FLT3.",32,120,0,10,1
+R0046,D835Y FLT3,FLT3 p.D835Y,VARIANT,AML,CONFLICTING,109,119,"D835Y FLT3 was identified at diagnosis, but repeat sequencing did not detect D835Y FLT3.",32,120,77,87,1
+R0046,MLL,KMT2A,GENE,B_ALL,HISTORICAL,121,124,MLL was previously identified.,121,151,0,3,1
+R0046,RARA,RARA,GENE,APL,CONFLICTING,152,156,"RARA was identified at diagnosis, but repeat sequencing did not detect RARA.",152,228,0,4,1
+R0046,RARA,RARA,GENE,APL,CONFLICTING,223,227,"RARA was identified at diagnosis, but repeat sequencing did not detect RARA.",152,228,71,75,1
+R0047,RET,RET,GENE,NSCLC,POSITIVE,0,3,RET was identified.,0,19,0,3,1
+R0047,measurable residual disease,MRD,BIOMARKER,APL,POSITIVE,48,75,Molecular testing confirmed measurable residual disease.,20,76,28,55,1
+R0047,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,77,82,"RUNX1 was previously detected, but current testing was negative for RUNX1.",77,151,0,5,1
+R0047,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,145,150,"RUNX1 was previously detected, but current testing was negative for RUNX1.",77,151,68,73,1
+R0047,PML RARA fusion,PML::RARA,FUSION,APL,NEGATIVE,177,192,Testing was negative for PML RARA fusion.,152,193,25,40,1
+R0047,FLT3,FLT3,GENE,APL,CONFLICTING,194,198,"FLT3 was previously detected, but current testing was negative for FLT3.",194,266,0,4,1
+R0047,FLT3,FLT3,GENE,APL,CONFLICTING,261,265,"FLT3 was previously detected, but current testing was negative for FLT3.",194,266,67,71,1
+R0048,MLL,KMT2A,GENE,B_ALL,NEGATIVE,3,6,No MLL was detected.,0,20,3,6,1
+R0048,FLT3,FLT3,GENE,APL,CONFLICTING,21,25,"FLT3 was identified at diagnosis, but repeat sequencing did not detect FLT3.",21,97,0,4,1
+R0048,FLT3,FLT3,GENE,APL,CONFLICTING,92,96,"FLT3 was identified at diagnosis, but repeat sequencing did not detect FLT3.",21,97,71,75,1
+R0048,JAK-STAT pathway alteration,JAK-STAT pathway alteration,VARIANT,B_ALL,POSITIVE,126,153,Molecular testing confirmed JAK-STAT pathway alteration.,98,154,28,55,1
+R0049,TP53 R175H,TP53 p.R175H,VARIANT,AML,FAMILY,29,39,The patient's father carried TP53 R175H.,0,40,29,39,1
+R0049,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,HISTORICAL,41,50,KRAS G12C was previously identified.,41,77,0,9,1
+R0049,IDH1 p.R132C,IDH1 p.R132C,VARIANT,AML,NEGATIVE,103,115,Testing was negative for IDH1 p.R132C.,78,116,25,37,1
+R0049,NPM1,NPM1,GENE,AML,HISTORICAL,117,121,NPM1 was detected at diagnosis.,117,148,0,4,1
+R0050,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,NEGATIVE,3,12,No KRAS G12C was detected.,0,26,3,12,1
+R0050,KMT2A,KMT2A,GENE,AML,NEGATIVE,63,68,Molecular analysis did not identify KMT2A.,27,69,36,41,1
+R0050,RUNX1,RUNX1,GENE,AML,HISTORICAL,70,75,RUNX1 was present on initial molecular testing.,70,117,0,5,1
+R0050,NPM1-mutated,NPM1 mutation,VARIANT,AML,HISTORICAL,118,130,NPM1-mutated was previously identified.,118,157,0,12,1
+R0051,ROS1,ROS1,GENE,NSCLC,NEGATIVE,25,29,Testing was negative for ROS1.,0,30,25,29,1
+R0051,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,31,36,"RUNX1 was previously detected, but current testing was negative for RUNX1.",31,105,0,5,1
+R0051,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,99,104,"RUNX1 was previously detected, but current testing was negative for RUNX1.",31,105,68,73,1
+R0051,DNMT3A,DNMT3A,GENE,AML,NEGATIVE,142,148,Molecular analysis did not identify DNMT3A.,106,149,36,42,1
+R0051,IDH1 p.R132H,IDH1 p.R132H,VARIANT,AML,POSITIVE,150,162,IDH1 p.R132H was detected.,150,176,0,12,1
+R0052,MET,MET,GENE,NSCLC,NEGATIVE,36,39,Molecular analysis did not identify MET.,0,40,36,39,1
+R0052,L858R EGFR,EGFR p.L858R,VARIANT,NSCLC,UNCERTAIN,52,62,A possible L858R EGFR was identified.,41,78,11,21,1
+R0052,KMT2A,KMT2A,GENE,B_ALL,POSITIVE,79,84,KMT2A was identified.,79,100,0,5,1
+R0052,TP53,TP53,GENE,AML,CONFLICTING,101,105,"TP53 was identified at diagnosis, but repeat sequencing did not detect TP53.",101,177,0,4,1
+R0052,TP53,TP53,GENE,AML,CONFLICTING,172,176,"TP53 was identified at diagnosis, but repeat sequencing did not detect TP53.",101,177,71,75,1
+R0053,PD-L1 TPS,PD-L1 TPS,BIOMARKER,NSCLC,UNCERTAIN,0,9,PD-L1 TPS cannot be excluded.,0,29,0,9,1
+R0053,RARA,RARA,GENE,APL,POSITIVE,30,34,RARA was identified.,30,50,0,4,1
+R0053,mutated NPM1,NPM1 mutation,VARIANT,AML,FAMILY,97,109,A family member was previously found to carry mutated NPM1.,51,110,46,58,1
+R0054,BRAF,BRAF,GENE,NSCLC,CONFLICTING,0,4,"BRAF was identified at diagnosis, but repeat sequencing did not detect BRAF.",0,76,0,4,1
+R0054,BRAF,BRAF,GENE,NSCLC,CONFLICTING,71,75,"BRAF was identified at diagnosis, but repeat sequencing did not detect BRAF.",0,76,71,75,1
+R0054,R172K IDH2,IDH2 p.R172K,VARIANT,AML,FAMILY,106,116,The patient's father carried R172K IDH2.,77,117,29,39,1
+R0054,ERBB2,ERBB2,GENE,NSCLC,HISTORICAL,118,123,ERBB2 was present on initial molecular testing.,118,165,0,5,1
+R0054,ETV6,ETV6,GENE,B_ALL,POSITIVE,194,198,Molecular testing confirmed ETV6.,166,199,28,32,1
+R0055,PML::RARA fusion,PML::RARA,FUSION,APL,CONFLICTING,0,16,"PML::RARA fusion was previously detected, but current testing was negative for PML::RARA fusion.",0,96,0,16,1
+R0055,PML::RARA fusion,PML::RARA,FUSION,APL,CONFLICTING,79,95,"PML::RARA fusion was previously detected, but current testing was negative for PML::RARA fusion.",0,96,79,95,1
+R0055,IDH2,IDH2,GENE,AML,CONFLICTING,97,101,"IDH2 was previously detected, but current testing was negative for IDH2.",97,169,0,4,1
+R0055,IDH2,IDH2,GENE,AML,CONFLICTING,164,168,"IDH2 was previously detected, but current testing was negative for IDH2.",97,169,67,71,1
+R0055,FLT3 D835Y,FLT3 p.D835Y,VARIANT,AML,NEGATIVE,206,216,Molecular analysis did not identify FLT3 D835Y.,170,217,36,46,1
+R0055,FLT3,FLT3,GENE,APL,CONFLICTING,218,222,"FLT3 was identified at diagnosis, but repeat sequencing did not detect FLT3.",218,294,0,4,1
+R0055,FLT3,FLT3,GENE,APL,CONFLICTING,289,293,"FLT3 was identified at diagnosis, but repeat sequencing did not detect FLT3.",218,294,71,75,1
+R0056,KRAS,KRAS,GENE,NSCLC,HISTORICAL,0,4,KRAS was previously identified.,0,31,0,4,1
+R0056,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,UNCERTAIN,59,68,Findings are suggestive of KRAS G12C.,32,69,27,36,1
+R0056,FLT3 p.D835Y,FLT3 p.D835Y,VARIANT,AML,POSITIVE,70,82,FLT3 p.D835Y was identified.,70,98,0,12,1
+R0057,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,POSITIVE,0,10,BRAF V600E was detected.,0,24,0,10,1
+R0057,ABL1,ABL1,GENE,B_ALL,UNCERTAIN,36,40,A possible ABL1 was identified.,25,56,11,15,1
+R0057,BCR-ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,POSITIVE,85,104,Molecular testing confirmed BCR-ABL1 transcript.,57,105,28,47,1
+R0057,ERBB2 expression,HER2 expression,BIOMARKER,NSCLC,POSITIVE,134,150,Molecular testing confirmed ERBB2 expression.,106,151,28,44,1
+R0058,EGFR,EGFR,GENE,NSCLC,UNCERTAIN,27,31,Findings are suggestive of EGFR.,0,32,27,31,1
+R0058,RUNX1,RUNX1,GENE,AML,HISTORICAL,33,38,RUNX1 was detected at diagnosis.,33,65,0,5,1
+R0058,measurable residual disease,MRD,BIOMARKER,AML,UNCERTAIN,66,93,measurable residual disease cannot be excluded.,66,113,0,27,1
+R0058,ALK-rearranged,ALK rearrangement,FUSION,NSCLC,UNCERTAIN,141,155,Findings are suggestive of ALK-rearranged.,114,156,27,41,1
+R0059,R172K IDH2,IDH2 p.R172K,VARIANT,AML,UNCERTAIN,0,10,R172K IDH2 cannot be excluded.,0,30,0,10,1
+R0059,IDH2,IDH2,GENE,AML,FAMILY,60,64,The patient's mother carried IDH2.,31,65,29,33,1
+R0059,FLT3-ITD,FLT3-ITD,VARIANT,APL,NEGATIVE,91,99,Testing was negative for FLT3-ITD.,66,100,25,33,1
+R0059,CEBPA bZIP in-frame mutation,CEBPA bZIP mutation,VARIANT,AML,POSITIVE,101,129,CEBPA bZIP in-frame mutation was detected.,101,143,0,28,1
+R0060,MLL,KMT2A,GENE,B_ALL,HISTORICAL,0,3,MLL was detected at diagnosis.,0,30,0,3,1
+R0060,HER2 mutation,HER2 activating mutation,VARIANT,NSCLC,HISTORICAL,31,44,HER2 mutation was detected at diagnosis.,31,71,0,13,1
+R0060,MRD,MRD,BIOMARKER,APL,HISTORICAL,72,75,MRD was present on initial molecular testing.,72,117,0,3,1
+R0060,ALK,ALK,GENE,NSCLC,FAMILY,147,150,The patient's mother carried ALK.,118,151,29,32,1
+R0061,ALK,ALK,GENE,NSCLC,POSITIVE,28,31,Molecular testing confirmed ALK.,0,32,28,31,1
+R0061,JAK2,JAK2,GENE,B_ALL,UNCERTAIN,33,37,JAK2 cannot be excluded.,33,57,0,4,1
+R0061,MET exon 14 skip,MET exon 14 skipping,VARIANT,NSCLC,HISTORICAL,58,74,MET exon 14 skip was previously identified.,58,101,0,16,1
+R0061,minimal residual disease,MRD,BIOMARKER,APL,UNCERTAIN,129,153,Findings are suggestive of minimal residual disease.,102,154,27,51,1
+R0062,ETV6-RUNX1,ETV6::RUNX1,FUSION,B_ALL,FAMILY,29,39,The patient's mother carried ETV6-RUNX1.,0,40,29,39,1
+R0062,RET,RET,GENE,NSCLC,HISTORICAL,41,44,RET was previously identified.,41,71,0,3,1
+R0062,PAX5,PAX5,GENE,B_ALL,CONFLICTING,72,76,"PAX5 was identified at diagnosis, but repeat sequencing did not detect PAX5.",72,148,0,4,1
+R0062,PAX5,PAX5,GENE,B_ALL,CONFLICTING,143,147,"PAX5 was identified at diagnosis, but repeat sequencing did not detect PAX5.",72,148,71,75,1
+R0062,measurable residual disease,MRD,BIOMARKER,AML,HISTORICAL,149,176,measurable residual disease was present on initial molecular testing.,149,218,0,27,1
+R0062,FLT3 ITD,FLT3-ITD,VARIANT,APL,NEGATIVE,222,230,No FLT3 ITD was detected.,219,244,3,11,1
+R0063,MET exon 14 skipping,MET exon 14 skipping,VARIANT,NSCLC,HISTORICAL,0,20,MET exon 14 skipping was present on initial molecular testing.,0,62,0,20,1
+R0063,CRLF2,CRLF2,GENE,B_ALL,HISTORICAL,63,68,CRLF2 was present on initial molecular testing.,63,110,0,5,1
+R0063,IDH1 R132H,IDH1 p.R132H,VARIANT,AML,NEGATIVE,147,157,Molecular analysis did not identify IDH1 R132H.,111,158,36,46,1
+R0064,MLL,KMT2A,GENE,AML,UNCERTAIN,27,30,Findings are suggestive of MLL.,0,31,27,30,1
+R0064,EGFR L858R,EGFR p.L858R,VARIANT,NSCLC,POSITIVE,60,70,Molecular testing confirmed EGFR L858R.,32,71,28,38,1
+R0064,PML::RARA PCR,PML::RARA transcript,BIOMARKER,APL,FAMILY,101,114,The patient's father carried PML::RARA PCR.,72,115,29,42,1
+R0065,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,CONFLICTING,0,9,"KRAS G12C was previously detected, but current testing was negative for KRAS G12C.",0,82,0,9,1
+R0065,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,CONFLICTING,72,81,"KRAS G12C was previously detected, but current testing was negative for KRAS G12C.",0,82,72,81,1
+R0065,PD-L1 TPS,PD-L1 TPS,BIOMARKER,NSCLC,CONFLICTING,83,92,"PD-L1 TPS was identified at diagnosis, but repeat sequencing did not detect PD-L1 TPS.",83,169,0,9,1
+R0065,PD-L1 TPS,PD-L1 TPS,BIOMARKER,NSCLC,CONFLICTING,159,168,"PD-L1 TPS was identified at diagnosis, but repeat sequencing did not detect PD-L1 TPS.",83,169,76,85,1
+R0065,TP53,TP53,GENE,AML,POSITIVE,170,174,TP53 was identified.,170,190,0,4,1
+R0065,c-KIT,KIT,GENE,AML,NEGATIVE,194,199,No c-KIT was detected.,191,213,3,8,1
+R0065,FLT3 ITD,FLT3-ITD,VARIANT,APL,POSITIVE,214,222,FLT3 ITD was detected.,214,236,0,8,1
+R0066,PAX5 P80R,PAX5 p.P80R,VARIANT,B_ALL,NEGATIVE,36,45,Molecular analysis did not identify PAX5 P80R.,0,46,36,45,1
+R0066,BCR-ABL1,BCR::ABL1,FUSION,B_ALL,CONFLICTING,47,55,"BCR-ABL1 was previously detected, but current testing was negative for BCR-ABL1.",47,127,0,8,1
+R0066,BCR-ABL1,BCR::ABL1,FUSION,B_ALL,CONFLICTING,118,126,"BCR-ABL1 was previously detected, but current testing was negative for BCR-ABL1.",47,127,71,79,1
+R0066,KRAS,KRAS,GENE,NSCLC,NEGATIVE,164,168,Molecular analysis did not identify KRAS.,128,169,36,40,1
+R0066,c-KIT D816V,KIT p.D816V,VARIANT,AML,HISTORICAL,170,181,c-KIT D816V was present on initial molecular testing.,170,223,0,11,1
+R0067,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,HISTORICAL,0,10,BRAF V600E was previously identified.,0,37,0,10,1
+R0067,c-KIT D816V,KIT p.D816V,VARIANT,AML,UNCERTAIN,38,49,c-KIT D816V cannot be excluded.,38,69,0,11,1
+R0067,FLT3,FLT3,GENE,APL,HISTORICAL,70,74,FLT3 was present on initial molecular testing.,70,116,0,4,1
+R0068,bZIP CEBPA mutation,CEBPA bZIP mutation,VARIANT,AML,CONFLICTING,0,19,"bZIP CEBPA mutation was identified at diagnosis, but repeat sequencing did not detect bZIP CEBPA mutation.",0,106,0,19,1
+R0068,bZIP CEBPA mutation,CEBPA bZIP mutation,VARIANT,AML,CONFLICTING,86,105,"bZIP CEBPA mutation was identified at diagnosis, but repeat sequencing did not detect bZIP CEBPA mutation.",0,106,86,105,1
+R0068,MLL,KMT2A,GENE,AML,HISTORICAL,107,110,MLL was detected at diagnosis.,107,137,0,3,1
+R0068,BRAF,BRAF,GENE,NSCLC,HISTORICAL,138,142,BRAF was detected at diagnosis.,138,169,0,4,1
+R0068,IKZF1 N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,NEGATIVE,206,217,Molecular analysis did not identify IKZF1 N159Y.,170,218,36,47,1
+R0068,ETV6,ETV6,GENE,B_ALL,UNCERTAIN,246,250,Findings are suggestive of ETV6.,219,251,27,31,1
+R0069,IDH1,IDH1,GENE,AML,FAMILY,46,50,A family member was previously found to carry IDH1.,0,51,46,50,1
+R0069,minimal residual disease,MRD,BIOMARKER,B_ALL,CONFLICTING,52,76,"minimal residual disease was identified at diagnosis, but repeat sequencing did not detect minimal residual disease.",52,168,0,24,1
+R0069,minimal residual disease,MRD,BIOMARKER,B_ALL,CONFLICTING,143,167,"minimal residual disease was identified at diagnosis, but repeat sequencing did not detect minimal residual disease.",52,168,91,115,1
+R0069,BCR,BCR,GENE,B_ALL,NEGATIVE,172,175,No BCR was detected.,169,189,3,6,1
+R0069,NPM1,NPM1,GENE,AML,CONFLICTING,190,194,"NPM1 was identified at diagnosis, but repeat sequencing did not detect NPM1.",190,266,0,4,1
+R0069,NPM1,NPM1,GENE,AML,CONFLICTING,261,265,"NPM1 was identified at diagnosis, but repeat sequencing did not detect NPM1.",190,266,71,75,1
+R0070,TP53 R248Q,TP53 p.R248Q,VARIANT,AML,POSITIVE,28,38,Molecular testing confirmed TP53 R248Q.,0,39,28,38,1
+R0070,IDH1 p.R132H,IDH1 p.R132H,VARIANT,AML,NEGATIVE,65,77,Testing was negative for IDH1 p.R132H.,40,78,25,37,1
+R0070,CEBPA,CEBPA,GENE,AML,UNCERTAIN,79,84,CEBPA cannot be excluded.,79,104,0,5,1
+R0070,RUNX1,RUNX1,GENE,B_ALL,NEGATIVE,141,146,Molecular analysis did not identify RUNX1.,105,147,36,41,1
+R0070,BRAF,BRAF,GENE,NSCLC,UNCERTAIN,148,152,BRAF cannot be excluded.,148,172,0,4,1
+R0071,EGFR exon 19 deletion,EGFR exon 19 deletion,VARIANT,NSCLC,HISTORICAL,0,21,EGFR exon 19 deletion was detected at diagnosis.,0,48,0,21,1
+R0071,MLL,KMT2A,GENE,B_ALL,NEGATIVE,85,88,Molecular analysis did not identify MLL.,49,89,36,39,1
+R0071,JAK2,JAK2,GENE,B_ALL,UNCERTAIN,101,105,A possible JAK2 was identified.,90,121,11,15,1
+R0071,IDH2 R140Q,IDH2 p.R140Q,VARIANT,AML,POSITIVE,150,160,Molecular testing confirmed IDH2 R140Q.,122,161,28,38,1
+R0072,RET,RET,GENE,NSCLC,FAMILY,46,49,A family member was previously found to carry RET.,0,50,46,49,1
+R0072,BCR::ABL1,BCR::ABL1,FUSION,B_ALL,UNCERTAIN,78,87,Findings are suggestive of BCR::ABL1.,51,88,27,36,1
+R0072,PML::RARA PCR,PML::RARA transcript,BIOMARKER,APL,NEGATIVE,92,105,No PML::RARA PCR was detected.,89,119,3,16,1
+R0073,PAX5,PAX5,GENE,B_ALL,CONFLICTING,0,4,"PAX5 was previously detected, but current testing was negative for PAX5.",0,72,0,4,1
+R0073,PAX5,PAX5,GENE,B_ALL,CONFLICTING,67,71,"PAX5 was previously detected, but current testing was negative for PAX5.",0,72,67,71,1
+R0073,RARA,RARA,GENE,APL,NEGATIVE,76,80,No RARA was detected.,73,94,3,7,1
+R0073,c-KIT,KIT,GENE,AML,UNCERTAIN,95,100,c-KIT cannot be excluded.,95,120,0,5,1
+R0073,ERBB2,ERBB2,GENE,NSCLC,POSITIVE,149,154,Molecular testing confirmed ERBB2.,121,155,28,33,1
+R0073,ETV6,ETV6,GENE,B_ALL,NEGATIVE,181,185,Testing was negative for ETV6.,156,186,25,29,1
+R0074,PD-L1 expression,PD-L1 TPS,BIOMARKER,NSCLC,HISTORICAL,0,16,PD-L1 expression was previously identified.,0,43,0,16,1
+R0074,ALK,ALK,GENE,NSCLC,UNCERTAIN,71,74,Findings are suggestive of ALK.,44,75,27,30,1
+R0074,NPM1 mutation,NPM1 mutation,VARIANT,AML,UNCERTAIN,87,100,A possible NPM1 mutation was identified.,76,116,11,24,1
+R0074,IDH1 p.R132H,IDH1 p.R132H,VARIANT,AML,HISTORICAL,117,129,IDH1 p.R132H was previously identified.,117,156,0,12,1
+R0075,Philadelphia chromosome,BCR::ABL1,FUSION,B_ALL,POSITIVE,0,23,Philadelphia chromosome was identified.,0,39,0,23,1
+R0075,PD-L1 TPS,PD-L1 TPS,BIOMARKER,NSCLC,NEGATIVE,65,74,Testing was negative for PD-L1 TPS.,40,75,25,34,1
+R0075,PAX5 p.P80R,PAX5 p.P80R,VARIANT,B_ALL,POSITIVE,104,115,Molecular testing confirmed PAX5 p.P80R.,76,116,28,39,1
+R0076,IDH1,IDH1,GENE,AML,FAMILY,29,33,The patient's mother carried IDH1.,0,34,29,33,1
+R0076,RUNX1,RUNX1,GENE,AML,FAMILY,81,86,A family member was previously found to carry RUNX1.,35,87,46,51,1
+R0076,CRLF2,CRLF2,GENE,B_ALL,NEGATIVE,113,118,Testing was negative for CRLF2.,88,119,25,30,1
+R0076,FLT3 tyrosine kinase domain mutation,FLT3-TKD,VARIANT,APL,NEGATIVE,123,159,No FLT3 tyrosine kinase domain mutation was detected.,120,173,3,39,1
+R0076,TP53 p.R175H,TP53 p.R175H,VARIANT,AML,UNCERTAIN,174,186,TP53 p.R175H cannot be excluded.,174,206,0,12,1
+R0077,PML/RARA,PML::RARA,FUSION,APL,POSITIVE,0,8,PML/RARA was detected.,0,22,0,8,1
+R0077,CBFB-MYH11,CBFB::MYH11,FUSION,AML,FAMILY,52,62,The patient's mother carried CBFB-MYH11.,23,63,29,39,1
+R0077,IDH2 R140Q,IDH2 p.R140Q,VARIANT,AML,NEGATIVE,67,77,No IDH2 R140Q was detected.,64,91,3,13,1
+R0077,IDH2,IDH2,GENE,AML,NEGATIVE,128,132,Molecular analysis did not identify IDH2.,92,133,36,40,1
+R0077,TP53 p.R175H,TP53 p.R175H,VARIANT,AML,POSITIVE,134,146,TP53 p.R175H was identified.,134,162,0,12,1
+R0078,JAK-STAT pathway alteration,JAK-STAT pathway alteration,VARIANT,B_ALL,FAMILY,46,73,A family member was previously found to carry JAK-STAT pathway alteration.,0,74,46,73,1
+R0078,HER2 mutation,HER2 activating mutation,VARIANT,NSCLC,POSITIVE,103,116,Molecular testing confirmed HER2 mutation.,75,117,28,41,1
+R0078,IDH1 R132C,IDH1 p.R132C,VARIANT,AML,FAMILY,147,157,The patient's father carried IDH1 R132C.,118,158,29,39,1
+R0078,MET,MET,GENE,NSCLC,CONFLICTING,159,162,"MET was previously detected, but current testing was negative for MET.",159,229,0,3,1
+R0078,MET,MET,GENE,NSCLC,CONFLICTING,225,228,"MET was previously detected, but current testing was negative for MET.",159,229,66,69,1
+R0079,BCR-ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,CONFLICTING,0,19,"BCR-ABL1 transcript was previously detected, but current testing was negative for BCR-ABL1 transcript.",0,102,0,19,1
+R0079,BCR-ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,CONFLICTING,82,101,"BCR-ABL1 transcript was previously detected, but current testing was negative for BCR-ABL1 transcript.",0,102,82,101,1
+R0079,ROS1,ROS1,GENE,NSCLC,POSITIVE,131,135,Molecular testing confirmed ROS1.,103,136,28,32,1
+R0079,IDH1 p.R132C,IDH1 p.R132C,VARIANT,AML,NEGATIVE,140,152,No IDH1 p.R132C was detected.,137,166,3,15,1
+R0079,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,UNCERTAIN,178,187,A possible KRAS G12C was identified.,167,203,11,20,1
+R0080,ROS1-rearranged,ROS1 fusion,FUSION,NSCLC,POSITIVE,0,15,ROS1-rearranged was detected.,0,29,0,15,1
+R0080,KMT2A,KMT2A,GENE,B_ALL,CONFLICTING,30,35,"KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A.",30,108,0,5,1
+R0080,KMT2A,KMT2A,GENE,B_ALL,CONFLICTING,102,107,"KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A.",30,108,72,77,1
+R0080,RET,RET,GENE,NSCLC,HISTORICAL,109,112,RET was previously identified.,109,139,0,3,1
+R0080,METex14,MET exon 14 skipping,VARIANT,NSCLC,UNCERTAIN,151,158,A possible METex14 was identified.,140,174,11,18,1
+R0080,KRAS,KRAS,GENE,NSCLC,HISTORICAL,175,179,KRAS was previously identified.,175,206,0,4,1
+R0081,IKZF1,IKZF1,GENE,B_ALL,CONFLICTING,0,5,"IKZF1 was previously detected, but current testing was negative for IKZF1.",0,74,0,5,1
+R0081,IKZF1,IKZF1,GENE,B_ALL,CONFLICTING,68,73,"IKZF1 was previously detected, but current testing was negative for IKZF1.",0,74,68,73,1
+R0081,PML::RARA,PML::RARA,FUSION,APL,POSITIVE,75,84,PML::RARA was detected.,75,98,0,9,1
+R0081,BCR::ABL1,BCR::ABL1,FUSION,B_ALL,HISTORICAL,99,108,BCR::ABL1 was present on initial molecular testing.,99,150,0,9,1
+R0081,NPM1-mutated,NPM1 mutation,VARIANT,AML,CONFLICTING,151,163,"NPM1-mutated was previously detected, but current testing was negative for NPM1-mutated.",151,239,0,12,1
+R0081,NPM1-mutated,NPM1 mutation,VARIANT,AML,CONFLICTING,226,238,"NPM1-mutated was previously detected, but current testing was negative for NPM1-mutated.",151,239,75,87,1
+R0082,DNMT3A,DNMT3A,GENE,AML,CONFLICTING,0,6,"DNMT3A was previously detected, but current testing was negative for DNMT3A.",0,76,0,6,1
+R0082,DNMT3A,DNMT3A,GENE,AML,CONFLICTING,69,75,"DNMT3A was previously detected, but current testing was negative for DNMT3A.",0,76,69,75,1
+R0082,CRLF2,CRLF2,GENE,B_ALL,UNCERTAIN,88,93,A possible CRLF2 was identified.,77,109,11,16,1
+R0082,R172K IDH2,IDH2 p.R172K,VARIANT,AML,POSITIVE,138,148,Molecular testing confirmed R172K IDH2.,110,149,28,38,1
+R0082,EGFR,EGFR,GENE,NSCLC,NEGATIVE,186,190,Molecular analysis did not identify EGFR.,150,191,36,40,1
+R0082,PAX5 p.P80R,PAX5 p.P80R,VARIANT,B_ALL,HISTORICAL,192,203,PAX5 p.P80R was detected at diagnosis.,192,230,0,11,1
+R0083,Ph-positive,BCR::ABL1,FUSION,B_ALL,HISTORICAL,0,11,Ph-positive was present on initial molecular testing.,0,53,0,11,1
+R0083,R140Q IDH2,IDH2 p.R140Q,VARIANT,AML,FAMILY,100,110,A family member was previously found to carry R140Q IDH2.,54,111,46,56,1
+R0083,BCR,BCR,GENE,B_ALL,FAMILY,158,161,A family member was previously found to carry BCR.,112,162,46,49,1
+R0083,RARA,RARA,GENE,APL,CONFLICTING,163,167,"RARA was previously detected, but current testing was negative for RARA.",163,235,0,4,1
+R0083,RARA,RARA,GENE,APL,CONFLICTING,230,234,"RARA was previously detected, but current testing was negative for RARA.",163,235,67,71,1
+R0084,MRD,MRD,BIOMARKER,APL,UNCERTAIN,0,3,MRD cannot be excluded.,0,23,0,3,1
+R0084,RUNX1,RUNX1,GENE,B_ALL,NEGATIVE,27,32,No RUNX1 was detected.,24,46,3,8,1
+R0084,JAK2,JAK2,GENE,B_ALL,NEGATIVE,50,54,No JAK2 was detected.,47,68,3,7,1
+R0085,ROS1 fusion,ROS1 fusion,FUSION,NSCLC,UNCERTAIN,11,22,A possible ROS1 fusion was identified.,0,38,11,22,1
+R0085,PML,PML,GENE,APL,UNCERTAIN,66,69,Findings are suggestive of PML.,39,70,27,30,1
+R0085,ETV6::RUNX1,ETV6::RUNX1,FUSION,B_ALL,FAMILY,100,111,The patient's mother carried ETV6::RUNX1.,71,112,29,40,1
+R0085,ALK,ALK,GENE,NSCLC,NEGATIVE,149,152,Molecular analysis did not identify ALK.,113,153,36,39,1
+R0085,RET,RET,GENE,NSCLC,POSITIVE,154,157,RET was identified.,154,173,0,3,1
+R0086,ROS1,ROS1,GENE,NSCLC,UNCERTAIN,27,31,Findings are suggestive of ROS1.,0,32,27,31,1
+R0086,KRAS G12C,KRAS p.G12C,VARIANT,NSCLC,POSITIVE,33,42,KRAS G12C was identified.,33,58,0,9,1
+R0086,BRAF,BRAF,GENE,NSCLC,POSITIVE,87,91,Molecular testing confirmed BRAF.,59,92,28,32,1
+R0086,ALK,ALK,GENE,NSCLC,CONFLICTING,93,96,"ALK was identified at diagnosis, but repeat sequencing did not detect ALK.",93,167,0,3,1
+R0086,ALK,ALK,GENE,NSCLC,CONFLICTING,163,166,"ALK was identified at diagnosis, but repeat sequencing did not detect ALK.",93,167,70,73,1
+R0087,RARA,RARA,GENE,APL,POSITIVE,0,4,RARA was identified.,0,20,0,4,1
+R0087,MRD,MRD,BIOMARKER,B_ALL,NEGATIVE,46,49,Testing was negative for MRD.,21,50,25,28,1
+R0087,DNMT3A,DNMT3A,GENE,AML,UNCERTAIN,51,57,DNMT3A cannot be excluded.,51,77,0,6,1
+R0088,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,NEGATIVE,36,46,Molecular analysis did not identify BRAF V600E.,0,47,36,46,1
+R0088,KRAS,KRAS,GENE,NSCLC,CONFLICTING,48,52,"KRAS was identified at diagnosis, but repeat sequencing did not detect KRAS.",48,124,0,4,1
+R0088,KRAS,KRAS,GENE,NSCLC,CONFLICTING,119,123,"KRAS was identified at diagnosis, but repeat sequencing did not detect KRAS.",48,124,71,75,1
+R0088,CBFB-MYH11,CBFB::MYH11,FUSION,AML,POSITIVE,153,163,Molecular testing confirmed CBFB-MYH11.,125,164,28,38,1
+R0089,KRAS,KRAS,GENE,NSCLC,POSITIVE,28,32,Molecular testing confirmed KRAS.,0,33,28,32,1
+R0089,IDH1,IDH1,GENE,AML,HISTORICAL,34,38,IDH1 was present on initial molecular testing.,34,80,0,4,1
+R0089,RET,RET,GENE,NSCLC,CONFLICTING,81,84,"RET was identified at diagnosis, but repeat sequencing did not detect RET.",81,155,0,3,1
+R0089,RET,RET,GENE,NSCLC,CONFLICTING,151,154,"RET was identified at diagnosis, but repeat sequencing did not detect RET.",81,155,70,73,1
+R0090,BCR/ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,NEGATIVE,25,44,Testing was negative for BCR/ABL1 transcript.,0,45,25,44,1
+R0090,IDH1,IDH1,GENE,AML,CONFLICTING,46,50,"IDH1 was previously detected, but current testing was negative for IDH1.",46,118,0,4,1
+R0090,IDH1,IDH1,GENE,AML,CONFLICTING,113,117,"IDH1 was previously detected, but current testing was negative for IDH1.",46,118,67,71,1
+R0090,PAX5,PAX5,GENE,B_ALL,HISTORICAL,119,123,PAX5 was detected at diagnosis.,119,150,0,4,1
+R0091,BCR/ABL1 transcript,BCR::ABL1 transcript,BIOMARKER,B_ALL,UNCERTAIN,11,30,A possible BCR/ABL1 transcript was identified.,0,46,11,30,1
+R0091,ROS1 rearrangement,ROS1 fusion,FUSION,NSCLC,NEGATIVE,50,68,No ROS1 rearrangement was detected.,47,82,3,21,1
+R0091,FLT3 internal tandem duplication,FLT3-ITD,VARIANT,AML,POSITIVE,111,143,Molecular testing confirmed FLT3 internal tandem duplication.,83,144,28,60,1
+R0091,measurable residual disease,MRD,BIOMARKER,B_ALL,POSITIVE,173,200,Molecular testing confirmed measurable residual disease.,145,201,28,55,1
+R0092,IKZF1 p.N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,POSITIVE,0,13,IKZF1 p.N159Y was identified.,0,29,0,13,1
+R0092,KIT p.D816V,KIT p.D816V,VARIANT,AML,NEGATIVE,66,77,Molecular analysis did not identify KIT p.D816V.,30,78,36,47,1
+R0092,FLT3 internal tandem duplication,FLT3-ITD,VARIANT,APL,NEGATIVE,82,114,No FLT3 internal tandem duplication was detected.,79,128,3,35,1
+R0093,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,CONFLICTING,0,10,"BRAF V600E was identified at diagnosis, but repeat sequencing did not detect BRAF V600E.",0,88,0,10,1
+R0093,BRAF V600E,BRAF p.V600E,VARIANT,NSCLC,CONFLICTING,77,87,"BRAF V600E was identified at diagnosis, but repeat sequencing did not detect BRAF V600E.",0,88,77,87,1
+R0093,HER2,ERBB2,GENE,NSCLC,NEGATIVE,92,96,No HER2 was detected.,89,110,3,7,1
+R0093,MET,MET,GENE,NSCLC,HISTORICAL,111,114,MET was present on initial molecular testing.,111,156,0,3,1
+R0094,BCR,BCR,GENE,B_ALL,POSITIVE,0,3,BCR was identified.,0,19,0,3,1
+R0094,DNMT3A,DNMT3A,GENE,AML,HISTORICAL,20,26,DNMT3A was detected at diagnosis.,20,53,0,6,1
+R0094,PAX5 P80R,PAX5 p.P80R,VARIANT,B_ALL,UNCERTAIN,54,63,PAX5 P80R cannot be excluded.,54,83,0,9,1
+R0094,MET exon 14 skipping,MET exon 14 skipping,VARIANT,NSCLC,CONFLICTING,84,104,"MET exon 14 skipping was identified at diagnosis, but repeat sequencing did not detect MET exon 14 skipping.",84,192,0,20,1
+R0094,MET exon 14 skipping,MET exon 14 skipping,VARIANT,NSCLC,CONFLICTING,171,191,"MET exon 14 skipping was identified at diagnosis, but repeat sequencing did not detect MET exon 14 skipping.",84,192,87,107,1
+R0095,ERBB2 expression,HER2 expression,BIOMARKER,NSCLC,UNCERTAIN,11,27,A possible ERBB2 expression was identified.,0,43,11,27,1
+R0095,CEBPA,CEBPA,GENE,AML,FAMILY,73,78,The patient's mother carried CEBPA.,44,79,29,34,1
+R0095,MET,MET,GENE,NSCLC,HISTORICAL,80,83,MET was previously identified.,80,110,0,3,1
+R0095,MRD,MRD,BIOMARKER,AML,CONFLICTING,111,114,"MRD was previously detected, but current testing was negative for MRD.",111,181,0,3,1
+R0095,MRD,MRD,BIOMARKER,AML,CONFLICTING,177,180,"MRD was previously detected, but current testing was negative for MRD.",111,181,66,69,1
+R0096,FLT3 tyrosine kinase domain mutation,FLT3-TKD,VARIANT,APL,FAMILY,29,65,The patient's mother carried FLT3 tyrosine kinase domain mutation.,0,66,29,65,1
+R0096,BRAF,BRAF,GENE,NSCLC,UNCERTAIN,78,82,A possible BRAF was identified.,67,98,11,15,1
+R0096,ROS1 rearrangement,ROS1 fusion,FUSION,NSCLC,HISTORICAL,99,117,ROS1 rearrangement was previously identified.,99,144,0,18,1
+R0097,RUNX1,RUNX1,GENE,AML,UNCERTAIN,27,32,Findings are suggestive of RUNX1.,0,33,27,32,1
+R0097,CRLF2,CRLF2,GENE,B_ALL,CONFLICTING,34,39,"CRLF2 was identified at diagnosis, but repeat sequencing did not detect CRLF2.",34,112,0,5,1
+R0097,CRLF2,CRLF2,GENE,B_ALL,CONFLICTING,106,111,"CRLF2 was identified at diagnosis, but repeat sequencing did not detect CRLF2.",34,112,72,77,1
+R0097,KIT,KIT,GENE,AML,POSITIVE,113,116,KIT was identified.,113,132,0,3,1
+R0097,R132H IDH1,IDH1 p.R132H,VARIANT,AML,UNCERTAIN,160,170,Findings are suggestive of R132H IDH1.,133,171,27,37,1
+R0097,KMT2A-rearranged,KMT2A rearrangement,FUSION,B_ALL,CONFLICTING,172,188,"KMT2A-rearranged was previously detected, but current testing was negative for KMT2A-rearranged.",172,268,0,16,1
+R0097,KMT2A-rearranged,KMT2A rearrangement,FUSION,B_ALL,CONFLICTING,251,267,"KMT2A-rearranged was previously detected, but current testing was negative for KMT2A-rearranged.",172,268,79,95,1
+R0098,FLT3 internal tandem duplication,FLT3-ITD,VARIANT,AML,CONFLICTING,0,32,"FLT3 internal tandem duplication was previously detected, but current testing was negative for FLT3 internal tandem duplication.",0,128,0,32,1
+R0098,FLT3 internal tandem duplication,FLT3-ITD,VARIANT,AML,CONFLICTING,95,127,"FLT3 internal tandem duplication was previously detected, but current testing was negative for FLT3 internal tandem duplication.",0,128,95,127,1
+R0098,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,129,134,"RUNX1 was identified at diagnosis, but repeat sequencing did not detect RUNX1.",129,207,0,5,1
+R0098,RUNX1,RUNX1,GENE,B_ALL,CONFLICTING,201,206,"RUNX1 was identified at diagnosis, but repeat sequencing did not detect RUNX1.",129,207,72,77,1
+R0098,ETV6-RUNX1,ETV6::RUNX1,FUSION,B_ALL,POSITIVE,208,218,ETV6-RUNX1 was identified.,208,234,0,10,1
+R0098,CRLF2,CRLF2,GENE,B_ALL,NEGATIVE,260,265,Testing was negative for CRLF2.,235,266,25,30,1
+R0098,TP53 p.R175H,TP53 p.R175H,VARIANT,AML,HISTORICAL,267,279,TP53 p.R175H was detected at diagnosis.,267,306,0,12,1
+R0099,mutated NPM1,NPM1 mutation,VARIANT,AML,POSITIVE,28,40,Molecular testing confirmed mutated NPM1.,0,41,28,40,1
+R0099,KMT2A,KMT2A,GENE,AML,CONFLICTING,42,47,"KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A.",42,120,0,5,1
+R0099,KMT2A,KMT2A,GENE,AML,CONFLICTING,114,119,"KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A.",42,120,72,77,1
+R0099,KMT2A,KMT2A,GENE,B_ALL,FAMILY,167,172,A family member was previously found to carry KMT2A.,121,173,46,51,1
+R0100,NPM1-mutated,NPM1 mutation,VARIANT,AML,CONFLICTING,0,12,"NPM1-mutated was previously detected, but current testing was negative for NPM1-mutated.",0,88,0,12,1
+R0100,NPM1-mutated,NPM1 mutation,VARIANT,AML,CONFLICTING,75,87,"NPM1-mutated was previously detected, but current testing was negative for NPM1-mutated.",0,88,75,87,1
+R0100,bZIP CEBPA mutation,CEBPA bZIP mutation,VARIANT,AML,HISTORICAL,89,108,bZIP CEBPA mutation was present on initial molecular testing.,89,150,0,19,1
+R0100,KMT2A rearrangement,KMT2A rearrangement,FUSION,AML,CONFLICTING,151,170,"KMT2A rearrangement was identified at diagnosis, but repeat sequencing did not detect KMT2A rearrangement.",151,257,0,19,1
+R0100,KMT2A rearrangement,KMT2A rearrangement,FUSION,AML,CONFLICTING,237,256,"KMT2A rearrangement was identified at diagnosis, but repeat sequencing did not detect KMT2A rearrangement.",151,257,86,105,1
+R0100,RUNX1-RUNX1T1,RUNX1::RUNX1T1,FUSION,AML,FAMILY,304,317,A family member was previously found to carry RUNX1-RUNX1T1.,258,318,46,59,1
+R0101,FLT3,FLT3,GENE,APL,HISTORICAL,0,4,FLT3 was previously identified.,0,31,0,4,1
+R0101,RET-rearranged,RET fusion,FUSION,NSCLC,CONFLICTING,32,46,"RET-rearranged was identified at diagnosis, but repeat sequencing did not detect RET-rearranged.",32,128,0,14,1
+R0101,RET-rearranged,RET fusion,FUSION,NSCLC,CONFLICTING,113,127,"RET-rearranged was identified at diagnosis, but repeat sequencing did not detect RET-rearranged.",32,128,81,95,1
+R0101,FLT3 ITD,FLT3-ITD,VARIANT,APL,HISTORICAL,129,137,FLT3 ITD was previously identified.,129,164,0,8,1
+R0101,RUNX1,RUNX1,GENE,B_ALL,FAMILY,194,199,The patient's mother carried RUNX1.,165,200,29,34,1
+R0102,TP53 R248Q,TP53 p.R248Q,VARIANT,AML,CONFLICTING,0,10,"TP53 R248Q was identified at diagnosis, but repeat sequencing did not detect TP53 R248Q.",0,88,0,10,1
+R0102,TP53 R248Q,TP53 p.R248Q,VARIANT,AML,CONFLICTING,77,87,"TP53 R248Q was identified at diagnosis, but repeat sequencing did not detect TP53 R248Q.",0,88,77,87,1
+R0102,PML::RARA,PML::RARA,FUSION,APL,FAMILY,135,144,A family member was previously found to carry PML::RARA.,89,145,46,55,1
+R0102,RUNX1,RUNX1,GENE,AML,FAMILY,175,180,The patient's father carried RUNX1.,146,181,29,34,1
+R0103,CEBPA bZIP mutation,CEBPA bZIP mutation,VARIANT,AML,FAMILY,29,48,The patient's father carried CEBPA bZIP mutation.,0,49,29,48,1
+R0103,MRD,MRD,BIOMARKER,APL,POSITIVE,50,53,MRD was identified.,50,69,0,3,1
+R0103,MET,MET,GENE,NSCLC,UNCERTAIN,81,84,A possible MET was identified.,70,100,11,14,1
+R0104,minimal residual disease,MRD,BIOMARKER,B_ALL,NEGATIVE,3,27,No minimal residual disease was detected.,0,41,3,27,1
+R0104,MET exon 14 skipping,MET exon 14 skipping,VARIANT,NSCLC,UNCERTAIN,42,62,MET exon 14 skipping cannot be excluded.,42,82,0,20,1
+R0104,BCR::ABL1,BCR::ABL1,FUSION,B_ALL,UNCERTAIN,110,119,Findings are suggestive of BCR::ABL1.,83,120,27,36,1
+R0105,CRLF2,CRLF2,GENE,B_ALL,HISTORICAL,0,5,CRLF2 was present on initial molecular testing.,0,47,0,5,1
+R0105,KIT D816V,KIT p.D816V,VARIANT,AML,HISTORICAL,48,57,KIT D816V was present on initial molecular testing.,48,99,0,9,1
+R0105,TP53 p.R248Q,TP53 p.R248Q,VARIANT,AML,POSITIVE,100,112,TP53 p.R248Q was detected.,100,126,0,12,1
+R0105,TP53,TP53,GENE,AML,UNCERTAIN,127,131,TP53 cannot be excluded.,127,151,0,4,1
+R0105,ABL1,ABL1,GENE,B_ALL,FAMILY,181,185,The patient's mother carried ABL1.,152,186,29,33,1
+R0106,FLT3 ITD,FLT3-ITD,VARIANT,APL,NEGATIVE,36,44,Molecular analysis did not identify FLT3 ITD.,0,45,36,44,1
+R0106,ETV6,ETV6,GENE,B_ALL,FAMILY,75,79,The patient's mother carried ETV6.,46,80,29,33,1
+R0106,IDH2 R172K,IDH2 p.R172K,VARIANT,AML,POSITIVE,109,119,Molecular testing confirmed IDH2 R172K.,81,120,28,38,1
+R0106,RUNX1,RUNX1,GENE,AML,FAMILY,167,172,A family member was previously found to carry RUNX1.,121,173,46,51,1
+R0107,FLT3 ITD,FLT3-ITD,VARIANT,APL,FAMILY,29,37,The patient's mother carried FLT3 ITD.,0,38,29,37,1
+R0107,KIT D816V,KIT p.D816V,VARIANT,AML,FAMILY,68,77,The patient's mother carried KIT D816V.,39,78,29,38,1
+R0107,KMT2A,KMT2A,GENE,B_ALL,CONFLICTING,79,84,"KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A.",79,157,0,5,1
+R0107,KMT2A,KMT2A,GENE,B_ALL,CONFLICTING,151,156,"KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A.",79,157,72,77,1
+R0107,ROS1,ROS1,GENE,NSCLC,POSITIVE,158,162,ROS1 was identified.,158,178,0,4,1
+R0107,FLT3,FLT3,GENE,AML,HISTORICAL,179,183,FLT3 was present on initial molecular testing.,179,225,0,4,1
+R0108,BCR/ABL1,BCR::ABL1,FUSION,B_ALL,POSITIVE,0,8,BCR/ABL1 was detected.,0,22,0,8,1
+R0108,PML::RARA,PML::RARA,FUSION,APL,CONFLICTING,23,32,"PML::RARA was identified at diagnosis, but repeat sequencing did not detect PML::RARA.",23,109,0,9,1
+R0108,PML::RARA,PML::RARA,FUSION,APL,CONFLICTING,99,108,"PML::RARA was identified at diagnosis, but repeat sequencing did not detect PML::RARA.",23,109,76,85,1
+R0108,IDH1,IDH1,GENE,AML,NEGATIVE,135,139,Testing was negative for IDH1.,110,140,25,29,1
+R0108,PAX5 P80R,PAX5 p.P80R,VARIANT,B_ALL,FAMILY,187,196,A family member was previously found to carry PAX5 P80R.,141,197,46,55,1
+R0109,ERBB2,ERBB2,GENE,NSCLC,NEGATIVE,36,41,Molecular analysis did not identify ERBB2.,0,42,36,41,1
+R0109,EGFR exon 19 deletion,EGFR exon 19 deletion,VARIANT,NSCLC,HISTORICAL,43,64,EGFR exon 19 deletion was previously identified.,43,91,0,21,1
+R0109,KMT2A rearrangement,KMT2A rearrangement,FUSION,AML,NEGATIVE,95,114,No KMT2A rearrangement was detected.,92,128,3,22,1
+R0110,IKZF1,IKZF1,GENE,B_ALL,HISTORICAL,0,5,IKZF1 was previously identified.,0,32,0,5,1
+R0110,RUNX1,RUNX1,GENE,B_ALL,POSITIVE,33,38,RUNX1 was identified.,33,54,0,5,1
+R0110,HER2 activating mutation,HER2 activating mutation,VARIANT,NSCLC,UNCERTAIN,82,106,Findings are suggestive of HER2 activating mutation.,55,107,27,51,1
+R0111,measurable residual disease,MRD,BIOMARKER,APL,HISTORICAL,0,27,measurable residual disease was previously identified.,0,54,0,27,1
+R0111,IDH2 R172K,IDH2 p.R172K,VARIANT,AML,HISTORICAL,55,65,IDH2 R172K was detected at diagnosis.,55,92,0,10,1
+R0111,Ph+,BCR::ABL1,FUSION,B_ALL,HISTORICAL,93,96,Ph+ was previously identified.,93,123,0,3,1
+R0111,KRAS,KRAS,GENE,NSCLC,UNCERTAIN,124,128,KRAS cannot be excluded.,124,148,0,4,1
+R0112,ROS1,ROS1,GENE,NSCLC,UNCERTAIN,0,4,ROS1 cannot be excluded.,0,24,0,4,1
+R0112,FLT3 ITD,FLT3-ITD,VARIANT,AML,POSITIVE,53,61,Molecular testing confirmed FLT3 ITD.,25,62,28,36,1
+R0112,KRAS,KRAS,GENE,NSCLC,UNCERTAIN,74,78,A possible KRAS was identified.,63,94,11,15,1
+R0112,MLL rearrangement,KMT2A rearrangement,FUSION,AML,FAMILY,124,141,The patient's father carried MLL rearrangement.,95,142,29,46,1
+R0112,PD-L1 expression,PD-L1 TPS,BIOMARKER,NSCLC,NEGATIVE,168,184,Testing was negative for PD-L1 expression.,143,185,25,41,1
+R0113,MET,MET,GENE,NSCLC,UNCERTAIN,0,3,MET cannot be excluded.,0,23,0,3,1
+R0113,CEBPA,CEBPA,GENE,AML,CONFLICTING,24,29,"CEBPA was identified at diagnosis, but repeat sequencing did not detect CEBPA.",24,102,0,5,1
+R0113,CEBPA,CEBPA,GENE,AML,CONFLICTING,96,101,"CEBPA was identified at diagnosis, but repeat sequencing did not detect CEBPA.",24,102,72,77,1
+R0113,PAX5 p.P80R,PAX5 p.P80R,VARIANT,B_ALL,FAMILY,132,143,The patient's mother carried PAX5 p.P80R.,103,144,29,40,1
+R0113,KRAS,KRAS,GENE,NSCLC,NEGATIVE,148,152,No KRAS was detected.,145,166,3,7,1
+R0114,c-KIT,KIT,GENE,AML,UNCERTAIN,27,32,Findings are suggestive of c-KIT.,0,33,27,32,1
+R0114,FLT3 internal tandem duplication,FLT3-ITD,VARIANT,APL,POSITIVE,34,66,FLT3 internal tandem duplication was detected.,34,80,0,32,1
+R0114,JAK/STAT pathway alteration,JAK-STAT pathway alteration,VARIANT,B_ALL,CONFLICTING,81,108,"JAK/STAT pathway alteration was identified at diagnosis, but repeat sequencing did not detect JAK/STAT pathway alteration.",81,203,0,27,1
+R0114,JAK/STAT pathway alteration,JAK-STAT pathway alteration,VARIANT,B_ALL,CONFLICTING,175,202,"JAK/STAT pathway alteration was identified at diagnosis, but repeat sequencing did not detect JAK/STAT pathway alteration.",81,203,94,121,1
+R0115,BRAF,BRAF,GENE,NSCLC,UNCERTAIN,11,15,A possible BRAF was identified.,0,31,11,15,1
+R0115,MLL,KMT2A,GENE,AML,CONFLICTING,32,35,"MLL was previously detected, but current testing was negative for MLL.",32,102,0,3,1
+R0115,MLL,KMT2A,GENE,AML,CONFLICTING,98,101,"MLL was previously detected, but current testing was negative for MLL.",32,102,66,69,1
+R0115,TP53 p.R248Q,TP53 p.R248Q,VARIANT,AML,POSITIVE,131,143,Molecular testing confirmed TP53 p.R248Q.,103,144,28,40,1
+R0115,ROS1 rearrangement,ROS1 fusion,FUSION,NSCLC,NEGATIVE,181,199,Molecular analysis did not identify ROS1 rearrangement.,145,200,36,54,1
+R0116,IDH2 R172K,IDH2 p.R172K,VARIANT,AML,FAMILY,46,56,A family member was previously found to carry IDH2 R172K.,0,57,46,56,1
+R0116,PML-RARA transcript,PML::RARA transcript,BIOMARKER,APL,HISTORICAL,58,77,PML-RARA transcript was detected at diagnosis.,58,104,0,19,1
+R0116,MET,MET,GENE,NSCLC,NEGATIVE,130,133,Testing was negative for MET.,105,134,25,28,1
+R0116,PML,PML,GENE,APL,NEGATIVE,138,141,No PML was detected.,135,155,3,6,1
+R0117,IKZF1,IKZF1,GENE,B_ALL,UNCERTAIN,0,5,IKZF1 cannot be excluded.,0,25,0,5,1
+R0117,IKZF1 p.N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,CONFLICTING,26,39,"IKZF1 p.N159Y was identified at diagnosis, but repeat sequencing did not detect IKZF1 p.N159Y.",26,120,0,13,1
+R0117,IKZF1 p.N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,CONFLICTING,106,119,"IKZF1 p.N159Y was identified at diagnosis, but repeat sequencing did not detect IKZF1 p.N159Y.",26,120,80,93,1
+R0117,KIT,KIT,GENE,AML,FAMILY,150,153,The patient's mother carried KIT.,121,154,29,32,1
+R0117,HER2 expression,HER2 expression,BIOMARKER,NSCLC,NEGATIVE,158,173,No HER2 expression was detected.,155,187,3,18,1
+R0117,PD-L1 TPS,PD-L1 TPS,BIOMARKER,NSCLC,HISTORICAL,188,197,PD-L1 TPS was previously identified.,188,224,0,9,1
+R0118,BCR/ABL1,BCR::ABL1,FUSION,B_ALL,POSITIVE,0,8,BCR/ABL1 was identified.,0,24,0,8,1
+R0118,HER2,ERBB2,GENE,NSCLC,CONFLICTING,25,29,"HER2 was identified at diagnosis, but repeat sequencing did not detect HER2.",25,101,0,4,1
+R0118,HER2,ERBB2,GENE,NSCLC,CONFLICTING,96,100,"HER2 was identified at diagnosis, but repeat sequencing did not detect HER2.",25,101,71,75,1
+R0118,ERBB2 expression,HER2 expression,BIOMARKER,NSCLC,HISTORICAL,102,118,ERBB2 expression was detected at diagnosis.,102,145,0,16,1
+R0118,TP53 R175H,TP53 p.R175H,VARIANT,AML,NEGATIVE,182,192,Molecular analysis did not identify TP53 R175H.,146,193,36,46,1
+R0118,FLT3 D835Y,FLT3 p.D835Y,VARIANT,AML,POSITIVE,194,204,FLT3 D835Y was identified.,194,220,0,10,1
+R0119,ALK-rearranged,ALK rearrangement,FUSION,NSCLC,NEGATIVE,36,50,Molecular analysis did not identify ALK-rearranged.,0,51,36,50,1
+R0119,IKZF1 p.N159Y,IKZF1 p.N159Y,VARIANT,B_ALL,POSITIVE,80,93,Molecular testing confirmed IKZF1 p.N159Y.,52,94,28,41,1
+R0119,TP53 R175H,TP53 p.R175H,VARIANT,AML,NEGATIVE,98,108,No TP53 R175H was detected.,95,122,3,13,1
+R0119,HER2 IHC,HER2 expression,BIOMARKER,NSCLC,NEGATIVE,159,167,Molecular analysis did not identify HER2 IHC.,123,168,36,44,1
+R0119,KMT2A-rearranged,KMT2A rearrangement,FUSION,AML,NEGATIVE,205,221,Molecular analysis did not identify KMT2A-rearranged.,169,222,36,52,1
+R0120,FLT3-ITD,FLT3-ITD,VARIANT,AML,UNCERTAIN,27,35,Findings are suggestive of FLT3-ITD.,0,36,27,35,1
+R0120,PML::RARA fusion,PML::RARA,FUSION,APL,UNCERTAIN,64,80,Findings are suggestive of PML::RARA fusion.,37,81,27,43,1
+R0120,NPM1 transcript MRD,NPM1 molecular MRD,BIOMARKER,AML,POSITIVE,110,129,Molecular testing confirmed NPM1 transcript MRD.,82,130,28,47,1
+R0120,ERBB2 expression,HER2 expression,BIOMARKER,NSCLC,NEGATIVE,167,183,Molecular analysis did not identify ERBB2 expression.,131,184,36,52,1

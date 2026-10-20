@@ -4,3 +4,8 @@ scikit-learn
 xgboost
 matplotlib
 jupyter
+pyyaml
+sentence-transformers
+torch
+joblib
+streamlit

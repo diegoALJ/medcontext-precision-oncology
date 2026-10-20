@@ -1,0 +1,5 @@
+report_id,normalized_entity,start_char,end_char,error_type,source_text,true_assertion,pred_assertion,true_experiencer,pred_experiencer,true_temporality,pred_temporality,true_certainty,pred_certainty,confidence
+R0063,MET exon 14 skipping,0,20,label_mismatch,MET exon 14 skipping was present on initial molecular testing.,PRESENT,PRESENT,PATIENT,PATIENT,HISTORICAL,CURRENT,CONFIRMED,CONFIRMED,0.9891
+R0063,CRLF2,63,68,label_mismatch,CRLF2 was present on initial molecular testing.,PRESENT,PRESENT,PATIENT,PATIENT,HISTORICAL,CURRENT,CONFIRMED,CONFIRMED,0.9678
+R0105,CRLF2,0,5,label_mismatch,CRLF2 was present on initial molecular testing.,PRESENT,PRESENT,PATIENT,PATIENT,HISTORICAL,CURRENT,CONFIRMED,CONFIRMED,0.9678
+R0105,KIT p.D816V,48,57,label_mismatch,KIT D816V was present on initial molecular testing.,PRESENT,PRESENT,PATIENT,PATIENT,HISTORICAL,CURRENT,CONFIRMED,CONFIRMED,0.9008

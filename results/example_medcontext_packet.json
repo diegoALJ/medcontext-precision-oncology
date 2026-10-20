@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "report_id": "DEMO_001",
+  "source_report": "IDH1 p.R132H cannot be excluded. The patient's father carried TP53 p.R175H. PML::RARA was previously detected, but current testing was negative for PML::RARA.",
+  "summary": {
+    "fact_count": 4,
+    "unique_entity_count": 3,
+    "unique_entities": [
+      "IDH1 p.R132H",
+      "PML::RARA",
+      "TP53 p.R175H"
+    ],
+    "entity_type_counts": {
+      "VARIANT": 2,
+      "FUSION": 2
+    },
+    "assertion_counts": {
+      "POSSIBLE": 1,
+      "PRESENT": 2,
+      "ABSENT": 1
+    },
+    "experiencer_counts": {
+      "PATIENT": 3,
+      "FAMILY": 1
+    },
+    "temporality_counts": {
+      "CURRENT": 2,
+      "HISTORICAL": 2
+    },
+    "certainty_counts": {
+      "SUSPECTED": 1,
+      "CONFIRMED": 3
+    }
+  },
+  "facts": [
+    {
+      "entity": "IDH1 p.R132H",
+      "normalized_entity": "IDH1 p.R132H",
+      "entity_type": "VARIANT",
+      "molecular": {
+        "entity_text": "IDH1 p.R132H",
+        "normalized_entity": "IDH1 p.R132H",
+        "entity_type": "VARIANT",
+        "disease": "AML",
+        "start_char": 0,
+        "end_char": 12,
+        "parsed": {
+          "gene": "IDH1",
+          "variant": "IDH1 p.R132H",
+          "alteration_class": "PROTEIN_SUBSTITUTION",
+          "protein_change": "p.R132H",
+          "reference_aa": "R",
+          "position": 132,
+          "alternate_aa": "H"
+        }
+      },
+      "assertion": "POSSIBLE",
+      "experiencer": "PATIENT",
+      "temporality": "CURRENT",
+      "certainty": "SUSPECTED",
+      "confidence": 0.9895,
+      "target_confidence": {
+        "assertion": 0.9923,
+        "experiencer": 0.9959,
+        "temporality": 0.9935,
+        "certainty": 0.9764
+      },
+      "source_text": "IDH1 p.R132H cannot be excluded.",
+      "start_char": 0,
+      "end_char": 12
+    },
+    {
+      "entity": "TP53 p.R175H",
+      "normalized_entity": "TP53 p.R175H",
+      "entity_type": "VARIANT",
+      "molecular": {
+        "entity_text": "TP53 p.R175H",
+        "normalized_entity": "TP53 p.R175H",
+        "entity_type": "VARIANT",
+        "disease": "AML",
+        "start_char": 62,
+        "end_char": 74,
+        "parsed": {
+          "gene": "TP53",
+          "variant": "TP53 p.R175H",
+          "alteration_class": "PROTEIN_SUBSTITUTION",
+          "protein_change": "p.R175H",
+          "reference_aa": "R",
+          "position": 175,
+          "alternate_aa": "H"
+        }
+      },
+      "assertion": "PRESENT",
+      "experiencer": "FAMILY",
+      "temporality": "HISTORICAL",
+      "certainty": "CONFIRMED",
+      "confidence": 0.9903,
+      "target_confidence": {
+        "assertion": 0.9977,
+        "experiencer": 0.9723,
+        "temporality": 0.9948,
+        "certainty": 0.9964
+      },
+      "source_text": "The patient's father carried TP53 p.R175H.",
+      "start_char": 62,
+      "end_char": 74
+    },
+    {
+      "entity": "PML::RARA",
+      "normalized_entity": "PML::RARA",
+      "entity_type": "FUSION",
+      "molecular": {
+        "entity_text": "PML::RARA",
+        "normalized_entity": "PML::RARA",
+        "entity_type": "FUSION",
+        "disease": "APL",
+        "start_char": 76,
+        "end_char": 85,
+        "parsed": {
+          "fusion": "PML::RARA",
+          "genes": [
+            "PML",
+            "RARA"
+          ],
+          "gene_1": "PML",
+          "gene_2": "RARA",
+          "alteration_class": "GENE_FUSION"
+        }
+      },
+      "assertion": "PRESENT",
+      "experiencer": "PATIENT",
+      "temporality": "HISTORICAL",
+      "certainty": "CONFIRMED",
+      "confidence": 0.9899,
+      "target_confidence": {
+        "assertion": 0.9875,
+        "experiencer": 0.9964,
+        "temporality": 0.9795,
+        "certainty": 0.9964
+      },
+      "source_text": "PML::RARA was previously detected, but current testing was negative for PML::RARA.",
+      "start_char": 76,
+      "end_char": 85
+    },
+    {
+      "entity": "PML::RARA",
+      "normalized_entity": "PML::RARA",
+      "entity_type": "FUSION",
+      "molecular": {
+        "entity_text": "PML::RARA",
+        "normalized_entity": "PML::RARA",
+        "entity_type": "FUSION",
+        "disease": "APL",
+        "start_char": 148,
+        "end_char": 157,
+        "parsed": {
+          "fusion": "PML::RARA",
+          "genes": [
+            "PML",
+            "RARA"
+          ],
+          "gene_1": "PML",
+          "gene_2": "RARA",
+          "alteration_class": "GENE_FUSION"
+        }
+      },
+      "assertion": "ABSENT",
+      "experiencer": "PATIENT",
+      "temporality": "CURRENT",
+      "certainty": "CONFIRMED",
+      "confidence": 0.9926,
+      "target_confidence": {
+        "assertion": 0.9931,
+        "experiencer": 0.9964,
+        "temporality": 0.9846,
+        "certainty": 0.9964
+      },
+      "source_text": "PML::RARA was previously detected, but current testing was negative for PML::RARA.",
+      "start_char": 148,
+      "end_char": 157
+    }
+  ]
+}

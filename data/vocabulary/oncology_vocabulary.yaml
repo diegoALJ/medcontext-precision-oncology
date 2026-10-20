@@ -1,0 +1,486 @@
+# MedContext Precision Oncology
+# Biomedical Vocabulary v1.1
+#
+# Purpose:
+# Controlled vocabulary for the MVP Candidate Finder, Precision Parser,
+# synthetic-data generator, and downstream normalization.
+#
+# Notes:
+# - This is intentionally not exhaustive.
+# - "canonical" is the normalized entity name used internally by MedContext.
+# - "aliases" contains common surface forms that may appear in reports.
+# - Drug-target associations are metadata only and must NOT be used to infer
+#   that a molecular alteration is present in a patient.
+
+version: "1.1"
+
+diseases:
+
+  AML:
+    canonical: "Acute Myeloid Leukemia"
+    aliases:
+      - "AML"
+      - "acute myeloid leukemia"
+      - "acute myelogenous leukemia"
+
+    genes:
+      - canonical: "FLT3"
+        aliases: ["FLT3"]
+      - canonical: "NPM1"
+        aliases: ["NPM1"]
+      - canonical: "IDH1"
+        aliases: ["IDH1"]
+      - canonical: "IDH2"
+        aliases: ["IDH2"]
+      - canonical: "TP53"
+        aliases: ["TP53"]
+      - canonical: "CEBPA"
+        aliases: ["CEBPA"]
+      - canonical: "RUNX1"
+        aliases: ["RUNX1"]
+      - canonical: "DNMT3A"
+        aliases: ["DNMT3A"]
+      - canonical: "KIT"
+        aliases: ["KIT", "c-KIT"]
+      - canonical: "KMT2A"
+        aliases: ["KMT2A", "MLL"]
+
+    variants:
+      - canonical: "FLT3-ITD"
+        parent_gene: "FLT3"
+        aliases:
+          - "FLT3-ITD"
+          - "FLT3 ITD"
+          - "FLT3 internal tandem duplication"
+
+      - canonical: "FLT3 p.D835Y"
+        parent_gene: "FLT3"
+        aliases:
+          - "FLT3 p.D835Y"
+          - "FLT3 D835Y"
+          - "D835Y FLT3"
+
+      - canonical: "IDH1 p.R132H"
+        parent_gene: "IDH1"
+        aliases:
+          - "IDH1 p.R132H"
+          - "IDH1 R132H"
+          - "R132H IDH1"
+
+      - canonical: "IDH1 p.R132C"
+        parent_gene: "IDH1"
+        aliases:
+          - "IDH1 p.R132C"
+          - "IDH1 R132C"
+          - "R132C IDH1"
+
+      - canonical: "IDH2 p.R140Q"
+        parent_gene: "IDH2"
+        aliases:
+          - "IDH2 p.R140Q"
+          - "IDH2 R140Q"
+          - "R140Q IDH2"
+
+      - canonical: "IDH2 p.R172K"
+        parent_gene: "IDH2"
+        aliases:
+          - "IDH2 p.R172K"
+          - "IDH2 R172K"
+          - "R172K IDH2"
+
+      - canonical: "TP53 p.R175H"
+        parent_gene: "TP53"
+        aliases:
+          - "TP53 p.R175H"
+          - "TP53 R175H"
+
+      - canonical: "TP53 p.R248Q"
+        parent_gene: "TP53"
+        aliases:
+          - "TP53 p.R248Q"
+          - "TP53 R248Q"
+
+      - canonical: "KIT p.D816V"
+        parent_gene: "KIT"
+        aliases:
+          - "KIT p.D816V"
+          - "KIT D816V"
+          - "c-KIT D816V"
+
+      - canonical: "NPM1 mutation"
+        parent_gene: "NPM1"
+        aliases:
+          - "NPM1 mutation"
+          - "NPM1-mutated"
+          - "mutated NPM1"
+
+      - canonical: "CEBPA bZIP mutation"
+        parent_gene: "CEBPA"
+        aliases:
+          - "CEBPA bZIP mutation"
+          - "bZIP CEBPA mutation"
+          - "CEBPA bZIP in-frame mutation"
+
+    fusions:
+      - canonical: "RUNX1::RUNX1T1"
+        parent_genes: ["RUNX1", "RUNX1T1"]
+        aliases:
+          - "RUNX1::RUNX1T1"
+          - "RUNX1-RUNX1T1"
+          - "RUNX1/RUNX1T1 fusion"
+
+      - canonical: "CBFB::MYH11"
+        parent_genes: ["CBFB", "MYH11"]
+        aliases:
+          - "CBFB::MYH11"
+          - "CBFB-MYH11"
+          - "CBFB/MYH11 fusion"
+
+      - canonical: "KMT2A rearrangement"
+        parent_genes: ["KMT2A"]
+        aliases:
+          - "KMT2A rearrangement"
+          - "KMT2A-rearranged"
+          - "MLL rearrangement"
+
+    biomarkers:
+      - canonical: "MRD"
+        aliases:
+          - "MRD"
+          - "minimal residual disease"
+          - "measurable residual disease"
+        value_type: "categorical"
+        possible_values: ["positive", "negative", "detectable", "undetectable"]
+
+      - canonical: "NPM1 molecular MRD"
+        aliases:
+          - "NPM1 MRD"
+          - "NPM1 molecular MRD"
+          - "NPM1 transcript MRD"
+        value_type: "quantitative_or_categorical"
+
+      - canonical: "FLT3 mutation status"
+        aliases:
+          - "FLT3 mutation status"
+          - "FLT3 status"
+        value_type: "categorical"
+
+    drugs:
+      - canonical: "midostaurin"
+        aliases: ["midostaurin"]
+        associated_target: "FLT3"
+      - canonical: "gilteritinib"
+        aliases: ["gilteritinib"]
+        associated_target: "FLT3"
+      - canonical: "ivosidenib"
+        aliases: ["ivosidenib"]
+        associated_target: "IDH1"
+      - canonical: "enasidenib"
+        aliases: ["enasidenib"]
+        associated_target: "IDH2"
+      - canonical: "azacitidine"
+        aliases: ["azacitidine", "5-azacitidine"]
+        associated_target: null
+      - canonical: "venetoclax"
+        aliases: ["venetoclax"]
+        associated_target: "BCL2"
+
+  APL:
+    canonical: "Acute Promyelocytic Leukemia"
+    aliases:
+      - "APL"
+      - "acute promyelocytic leukemia"
+
+    genes:
+      - canonical: "PML"
+        aliases: ["PML"]
+      - canonical: "RARA"
+        aliases: ["RARA"]
+      - canonical: "FLT3"
+        aliases: ["FLT3"]
+
+    variants:
+      - canonical: "FLT3-ITD"
+        parent_gene: "FLT3"
+        aliases:
+          - "FLT3-ITD"
+          - "FLT3 ITD"
+          - "FLT3 internal tandem duplication"
+
+      - canonical: "FLT3-TKD"
+        parent_gene: "FLT3"
+        aliases:
+          - "FLT3-TKD"
+          - "FLT3 TKD"
+          - "FLT3 tyrosine kinase domain mutation"
+
+    fusions:
+      - canonical: "PML::RARA"
+        parent_genes: ["PML", "RARA"]
+        aliases:
+          - "PML::RARA"
+          - "PML-RARA"
+          - "PML/RARA"
+          - "PML RARA fusion"
+          - "PML::RARA fusion"
+
+    biomarkers:
+      - canonical: "PML::RARA transcript"
+        aliases:
+          - "PML::RARA transcript"
+          - "PML-RARA transcript"
+          - "PML/RARA transcript"
+          - "PML::RARA PCR"
+        value_type: "quantitative_or_categorical"
+
+      - canonical: "MRD"
+        aliases:
+          - "MRD"
+          - "minimal residual disease"
+          - "measurable residual disease"
+        value_type: "categorical"
+        possible_values: ["positive", "negative", "detectable", "undetectable"]
+
+    drugs:
+      - canonical: "ATRA"
+        aliases:
+          - "ATRA"
+          - "all-trans retinoic acid"
+          - "tretinoin"
+        associated_target: "PML::RARA"
+
+      - canonical: "arsenic trioxide"
+        aliases:
+          - "arsenic trioxide"
+          - "ATO"
+        associated_target: "PML::RARA"
+
+  B_ALL:
+    canonical: "B-cell Acute Lymphoblastic Leukemia"
+    aliases:
+      - "B-ALL"
+      - "B cell acute lymphoblastic leukemia"
+      - "B-cell acute lymphoblastic leukemia"
+      - "B lymphoblastic leukemia"
+
+    genes:
+      - canonical: "BCR"
+        aliases: ["BCR"]
+      - canonical: "ABL1"
+        aliases: ["ABL1"]
+      - canonical: "KMT2A"
+        aliases: ["KMT2A", "MLL"]
+      - canonical: "ETV6"
+        aliases: ["ETV6"]
+      - canonical: "RUNX1"
+        aliases: ["RUNX1"]
+      - canonical: "IKZF1"
+        aliases: ["IKZF1"]
+      - canonical: "PAX5"
+        aliases: ["PAX5"]
+      - canonical: "CRLF2"
+        aliases: ["CRLF2"]
+      - canonical: "JAK2"
+        aliases: ["JAK2"]
+
+    variants:
+      - canonical: "IKZF1 p.N159Y"
+        parent_gene: "IKZF1"
+        aliases:
+          - "IKZF1 p.N159Y"
+          - "IKZF1 N159Y"
+
+      - canonical: "PAX5 p.P80R"
+        parent_gene: "PAX5"
+        aliases:
+          - "PAX5 p.P80R"
+          - "PAX5 P80R"
+
+      - canonical: "JAK-STAT pathway alteration"
+        parent_gene: null
+        aliases:
+          - "JAK-STAT pathway alteration"
+          - "JAK/STAT pathway alteration"
+          - "JAK-STAT activation"
+
+    fusions:
+      - canonical: "BCR::ABL1"
+        parent_genes: ["BCR", "ABL1"]
+        aliases:
+          - "BCR::ABL1"
+          - "BCR-ABL1"
+          - "BCR/ABL1"
+          - "Philadelphia chromosome"
+          - "Ph-positive"
+          - "Ph+"
+
+      - canonical: "ETV6::RUNX1"
+        parent_genes: ["ETV6", "RUNX1"]
+        aliases:
+          - "ETV6::RUNX1"
+          - "ETV6-RUNX1"
+          - "ETV6/RUNX1 fusion"
+
+      - canonical: "KMT2A rearrangement"
+        parent_genes: ["KMT2A"]
+        aliases:
+          - "KMT2A rearrangement"
+          - "KMT2A-rearranged"
+          - "MLL rearrangement"
+
+    biomarkers:
+      - canonical: "MRD"
+        aliases:
+          - "MRD"
+          - "minimal residual disease"
+          - "measurable residual disease"
+        value_type: "categorical"
+        possible_values: ["positive", "negative", "detectable", "undetectable"]
+
+      - canonical: "BCR::ABL1 transcript"
+        aliases:
+          - "BCR::ABL1 transcript"
+          - "BCR-ABL1 transcript"
+          - "BCR/ABL1 transcript"
+        value_type: "quantitative_or_categorical"
+
+    drugs:
+      - canonical: "imatinib"
+        aliases: ["imatinib"]
+        associated_target: "BCR::ABL1"
+      - canonical: "dasatinib"
+        aliases: ["dasatinib"]
+        associated_target: "BCR::ABL1"
+      - canonical: "ponatinib"
+        aliases: ["ponatinib"]
+        associated_target: "BCR::ABL1"
+      - canonical: "blinatumomab"
+        aliases: ["blinatumomab"]
+        associated_target: "CD19"
+
+  NSCLC:
+    canonical: "Non-Small Cell Lung Cancer"
+    aliases:
+      - "NSCLC"
+      - "non-small cell lung cancer"
+      - "non-small-cell lung cancer"
+
+    genes:
+      - canonical: "EGFR"
+        aliases: ["EGFR"]
+      - canonical: "ALK"
+        aliases: ["ALK"]
+      - canonical: "ROS1"
+        aliases: ["ROS1"]
+      - canonical: "KRAS"
+        aliases: ["KRAS"]
+      - canonical: "BRAF"
+        aliases: ["BRAF"]
+      - canonical: "MET"
+        aliases: ["MET"]
+      - canonical: "RET"
+        aliases: ["RET"]
+      - canonical: "ERBB2"
+        aliases: ["ERBB2", "HER2"]
+
+    variants:
+      - canonical: "EGFR p.L858R"
+        parent_gene: "EGFR"
+        aliases:
+          - "EGFR p.L858R"
+          - "EGFR L858R"
+          - "L858R EGFR"
+
+      - canonical: "EGFR exon 19 deletion"
+        parent_gene: "EGFR"
+        aliases:
+          - "EGFR exon 19 deletion"
+          - "EGFR exon 19 del"
+          - "EGFR ex19del"
+
+      - canonical: "KRAS p.G12C"
+        parent_gene: "KRAS"
+        aliases:
+          - "KRAS p.G12C"
+          - "KRAS G12C"
+
+      - canonical: "BRAF p.V600E"
+        parent_gene: "BRAF"
+        aliases:
+          - "BRAF p.V600E"
+          - "BRAF V600E"
+
+      - canonical: "MET exon 14 skipping"
+        parent_gene: "MET"
+        aliases:
+          - "MET exon 14 skipping"
+          - "METex14"
+          - "MET exon 14 skip"
+
+      - canonical: "HER2 activating mutation"
+        parent_gene: "ERBB2"
+        aliases:
+          - "HER2 activating mutation"
+          - "ERBB2 activating mutation"
+          - "HER2 mutation"
+
+    fusions:
+      - canonical: "ALK rearrangement"
+        parent_genes: ["ALK"]
+        aliases:
+          - "ALK rearrangement"
+          - "ALK-rearranged"
+          - "ALK fusion"
+
+      - canonical: "ROS1 fusion"
+        parent_genes: ["ROS1"]
+        aliases:
+          - "ROS1 fusion"
+          - "ROS1 rearrangement"
+          - "ROS1-rearranged"
+
+      - canonical: "RET fusion"
+        parent_genes: ["RET"]
+        aliases:
+          - "RET fusion"
+          - "RET rearrangement"
+          - "RET-rearranged"
+
+    biomarkers:
+      - canonical: "PD-L1 TPS"
+        aliases:
+          - "PD-L1 TPS"
+          - "PD-L1 tumor proportion score"
+          - "PD-L1 expression"
+        value_type: "percentage"
+        unit: "%"
+
+      - canonical: "HER2 expression"
+        aliases:
+          - "HER2 expression"
+          - "HER2 IHC"
+          - "ERBB2 expression"
+        value_type: "categorical_or_ordinal"
+
+    drugs:
+      - canonical: "osimertinib"
+        aliases: ["osimertinib"]
+        associated_target: "EGFR"
+      - canonical: "alectinib"
+        aliases: ["alectinib"]
+        associated_target: "ALK"
+      - canonical: "sotorasib"
+        aliases: ["sotorasib"]
+        associated_target: "KRAS p.G12C"
+      - canonical: "dabrafenib"
+        aliases: ["dabrafenib"]
+        associated_target: "BRAF p.V600E"
+      - canonical: "trametinib"
+        aliases: ["trametinib"]
+        associated_target: "MEK"
+      - canonical: "capmatinib"
+        aliases: ["capmatinib"]
+        associated_target: "MET exon 14 skipping"
+      - canonical: "selpercatinib"
+        aliases: ["selpercatinib"]
+        associated_target: "RET fusion"

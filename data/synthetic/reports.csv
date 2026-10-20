@@ -1,0 +1,121 @@
+report_id,report_text
+R0001,"No R140Q IDH2 was detected. IDH2 was identified at diagnosis, but repeat sequencing did not detect IDH2. BCR was detected. Molecular analysis did not identify FLT3-TKD. A family member was previously found to carry RARA."
+R0002,PD-L1 expression was previously identified. Molecular testing confirmed ALK. RARA was previously identified.
+R0003,PML was detected. Findings are suggestive of JAK2. Findings are suggestive of IDH1 p.R132C.
+R0004,A family member was previously found to carry RET rearrangement. A family member was previously found to carry IDH2 R172K. No ETV6/RUNX1 fusion was detected. FLT3 internal tandem duplication was detected.
+R0005,Findings are suggestive of FLT3 ITD. A possible FLT3 was identified. Findings are suggestive of IDH1 p.R132H. Findings are suggestive of ETV6/RUNX1 fusion.
+R0006,"MLL was previously identified. RUNX1/RUNX1T1 fusion was previously detected, but current testing was negative for RUNX1/RUNX1T1 fusion. RET rearrangement was previously detected, but current testing was negative for RET rearrangement. Testing was negative for FLT3-TKD. bZIP CEBPA mutation was detected at diagnosis."
+R0007,"IKZF1 was detected at diagnosis. PML cannot be excluded. BRAF V600E was identified at diagnosis, but repeat sequencing did not detect BRAF V600E."
+R0008,BCR::ABL1 transcript was detected at diagnosis. Molecular testing confirmed JAK-STAT pathway alteration. Molecular analysis did not identify RARA. TP53 R248Q was identified. A family member was previously found to carry ERBB2 activating mutation.
+R0009,"A possible ERBB2 expression was identified. NPM1 was identified. No IDH2 R140Q was detected. RET-rearranged was identified at diagnosis, but repeat sequencing did not detect RET-rearranged."
+R0010,No CBFB-MYH11 was detected. The patient's mother carried MET exon 14 skip. The patient's father carried IDH1 R132C. ETV6 was identified. NPM1 MRD cannot be excluded.
+R0011,"The patient's mother carried FLT3-ITD. KRAS G12C was previously detected, but current testing was negative for KRAS G12C. c-KIT cannot be excluded."
+R0012,The patient's mother carried NPM1 molecular MRD. No RUNX1 was detected. Findings are suggestive of BCR::ABL1 transcript. A family member was previously found to carry BCR-ABL1. No BRAF was detected.
+R0013,"DNMT3A was identified. FLT3 was previously detected, but current testing was negative for FLT3. A family member was previously found to carry KIT. The patient's mother carried TP53. CRLF2 was detected at diagnosis."
+R0014,"IDH1 R132H was previously identified. KRAS was previously detected, but current testing was negative for KRAS. Molecular testing confirmed PAX5 P80R."
+R0015,IDH1 p.R132C was previously identified. Testing was negative for FLT3 TKD. Testing was negative for MRD. The patient's mother carried RET fusion.
+R0016,PD-L1 tumor proportion score was previously identified. No NPM1 was detected. No FLT3 D835Y was detected. FLT3 ITD was previously identified. Findings are suggestive of RUNX1-RUNX1T1.
+R0017,Molecular testing confirmed KRAS p.G12C. NPM1 mutation cannot be excluded. A family member was previously found to carry minimal residual disease. The patient's mother carried KMT2A. The patient's mother carried PML.
+R0018,Molecular testing confirmed KIT. A family member was previously found to carry FLT3-ITD. Molecular testing confirmed BCR-ABL1 transcript.
+R0019,"ALK-rearranged cannot be excluded. IKZF1 was identified at diagnosis, but repeat sequencing did not detect IKZF1. PML::RARA transcript cannot be excluded. FLT3 mutation status was detected at diagnosis. A family member was previously found to carry FLT3-ITD."
+R0020,"TP53 R175H cannot be excluded. IKZF1 N159Y was present on initial molecular testing. KIT was identified at diagnosis, but repeat sequencing did not detect KIT. FLT3-TKD was previously detected, but current testing was negative for FLT3-TKD."
+R0021,Findings are suggestive of IDH2 R140Q. Testing was negative for R132C IDH1. Molecular analysis did not identify ERBB2 expression. A possible mutated NPM1 was identified.
+R0022,"RUNX1 was identified. Testing was negative for D835Y FLT3. Molecular analysis did not identify ROS1. BCR was previously detected, but current testing was negative for BCR."
+R0023,Molecular testing confirmed MLL. The patient's father carried NPM1 mutation. Testing was negative for PD-L1 TPS.
+R0024,"CEBPA was identified at diagnosis, but repeat sequencing did not detect CEBPA. A family member was previously found to carry PAX5 P80R. FLT3 mutation status was previously detected, but current testing was negative for FLT3 mutation status. Testing was negative for FLT3-TKD."
+R0025,"CBFB/MYH11 fusion was previously detected, but current testing was negative for CBFB/MYH11 fusion. Findings are suggestive of CRLF2. EGFR was detected."
+R0026,RARA cannot be excluded. NPM1 transcript MRD was detected. RET was previously identified. IKZF1 N159Y was identified.
+R0027,ERBB2 activating mutation was detected. The patient's mother carried BCR-ABL1 transcript. RET-rearranged was identified. A possible CRLF2 was identified. The patient's father carried IDH2.
+R0028,"A family member was previously found to carry measurable residual disease. PML-RARA was identified at diagnosis, but repeat sequencing did not detect PML-RARA. CEBPA was present on initial molecular testing. Findings are suggestive of KRAS. Molecular testing confirmed FLT3."
+R0029,"The patient's mother carried EGFR. PAX5 was present on initial molecular testing. BCR::ABL1 transcript was identified at diagnosis, but repeat sequencing did not detect BCR::ABL1 transcript. KMT2A was previously identified."
+R0030,FLT3 status was present on initial molecular testing. Molecular analysis did not identify KRAS. Testing was negative for PAX5. The patient's mother carried HER2.
+R0031,No RUNX1 was detected. Molecular analysis did not identify RARA. NPM1 molecular MRD was identified.
+R0032,Molecular analysis did not identify measurable residual disease. KMT2A rearrangement was identified. Molecular analysis did not identify BRAF p.V600E. The patient's mother carried BCR-ABL1 transcript. The patient's mother carried FLT3-TKD.
+R0033,TP53 R248Q was present on initial molecular testing. ERBB2 was present on initial molecular testing. ROS1 rearrangement was previously identified. Molecular analysis did not identify IKZF1.
+R0034,"FLT3 ITD was previously detected, but current testing was negative for FLT3 ITD. A possible BCR was identified. The patient's mother carried BRAF. Testing was negative for KMT2A."
+R0035,"A possible mutated NPM1 was identified. PML was detected at diagnosis. c-KIT was present on initial molecular testing. ALK was identified at diagnosis, but repeat sequencing did not detect ALK. EGFR was previously identified."
+R0036,The patient's father carried KMT2A rearrangement. Testing was negative for ALK. RET fusion was previously identified. Findings are suggestive of PD-L1 expression.
+R0037,"Molecular testing confirmed RUNX1-RUNX1T1. The patient's mother carried ERBB2. TP53 R175H was previously detected, but current testing was negative for TP53 R175H. RET fusion was detected at diagnosis."
+R0038,"A possible ETV6-RUNX1 was identified. A possible PAX5 was identified. PML was detected. RET was identified at diagnosis, but repeat sequencing did not detect RET."
+R0039,No KIT was detected. The patient's mother carried CEBPA. Molecular analysis did not identify IDH2.
+R0040,Findings are suggestive of PML. The patient's mother carried ERBB2. Findings are suggestive of PML::RARA.
+R0041,"RUNX1 was previously detected, but current testing was negative for RUNX1. A family member was previously found to carry ETV6/RUNX1 fusion. Molecular analysis did not identify MRD."
+R0042,R172K IDH2 was previously identified. CEBPA was detected. IKZF1 N159Y was detected at diagnosis. RET rearrangement was present on initial molecular testing.
+R0043,"NPM1-mutated was identified at diagnosis, but repeat sequencing did not detect NPM1-mutated. KRAS was present on initial molecular testing. The patient's father carried CBFB-MYH11. Testing was negative for ALK rearrangement."
+R0044,FLT3 TKD was identified. No HER2 was detected. A possible ETV6-RUNX1 was identified. Findings are suggestive of JAK2.
+R0045,"Testing was negative for ALK fusion. measurable residual disease was detected at diagnosis. FLT3 ITD was identified at diagnosis, but repeat sequencing did not detect FLT3 ITD."
+R0046,"IDH1 was previously identified. D835Y FLT3 was identified at diagnosis, but repeat sequencing did not detect D835Y FLT3. MLL was previously identified. RARA was identified at diagnosis, but repeat sequencing did not detect RARA."
+R0047,"RET was identified. Molecular testing confirmed measurable residual disease. RUNX1 was previously detected, but current testing was negative for RUNX1. Testing was negative for PML RARA fusion. FLT3 was previously detected, but current testing was negative for FLT3."
+R0048,"No MLL was detected. FLT3 was identified at diagnosis, but repeat sequencing did not detect FLT3. Molecular testing confirmed JAK-STAT pathway alteration."
+R0049,The patient's father carried TP53 R175H. KRAS G12C was previously identified. Testing was negative for IDH1 p.R132C. NPM1 was detected at diagnosis.
+R0050,No KRAS G12C was detected. Molecular analysis did not identify KMT2A. RUNX1 was present on initial molecular testing. NPM1-mutated was previously identified.
+R0051,"Testing was negative for ROS1. RUNX1 was previously detected, but current testing was negative for RUNX1. Molecular analysis did not identify DNMT3A. IDH1 p.R132H was detected."
+R0052,"Molecular analysis did not identify MET. A possible L858R EGFR was identified. KMT2A was identified. TP53 was identified at diagnosis, but repeat sequencing did not detect TP53."
+R0053,PD-L1 TPS cannot be excluded. RARA was identified. A family member was previously found to carry mutated NPM1.
+R0054,"BRAF was identified at diagnosis, but repeat sequencing did not detect BRAF. The patient's father carried R172K IDH2. ERBB2 was present on initial molecular testing. Molecular testing confirmed ETV6."
+R0055,"PML::RARA fusion was previously detected, but current testing was negative for PML::RARA fusion. IDH2 was previously detected, but current testing was negative for IDH2. Molecular analysis did not identify FLT3 D835Y. FLT3 was identified at diagnosis, but repeat sequencing did not detect FLT3."
+R0056,KRAS was previously identified. Findings are suggestive of KRAS G12C. FLT3 p.D835Y was identified.
+R0057,BRAF V600E was detected. A possible ABL1 was identified. Molecular testing confirmed BCR-ABL1 transcript. Molecular testing confirmed ERBB2 expression.
+R0058,Findings are suggestive of EGFR. RUNX1 was detected at diagnosis. measurable residual disease cannot be excluded. Findings are suggestive of ALK-rearranged.
+R0059,R172K IDH2 cannot be excluded. The patient's mother carried IDH2. Testing was negative for FLT3-ITD. CEBPA bZIP in-frame mutation was detected.
+R0060,MLL was detected at diagnosis. HER2 mutation was detected at diagnosis. MRD was present on initial molecular testing. The patient's mother carried ALK.
+R0061,Molecular testing confirmed ALK. JAK2 cannot be excluded. MET exon 14 skip was previously identified. Findings are suggestive of minimal residual disease.
+R0062,"The patient's mother carried ETV6-RUNX1. RET was previously identified. PAX5 was identified at diagnosis, but repeat sequencing did not detect PAX5. measurable residual disease was present on initial molecular testing. No FLT3 ITD was detected."
+R0063,MET exon 14 skipping was present on initial molecular testing. CRLF2 was present on initial molecular testing. Molecular analysis did not identify IDH1 R132H.
+R0064,Findings are suggestive of MLL. Molecular testing confirmed EGFR L858R. The patient's father carried PML::RARA PCR.
+R0065,"KRAS G12C was previously detected, but current testing was negative for KRAS G12C. PD-L1 TPS was identified at diagnosis, but repeat sequencing did not detect PD-L1 TPS. TP53 was identified. No c-KIT was detected. FLT3 ITD was detected."
+R0066,"Molecular analysis did not identify PAX5 P80R. BCR-ABL1 was previously detected, but current testing was negative for BCR-ABL1. Molecular analysis did not identify KRAS. c-KIT D816V was present on initial molecular testing."
+R0067,BRAF V600E was previously identified. c-KIT D816V cannot be excluded. FLT3 was present on initial molecular testing.
+R0068,"bZIP CEBPA mutation was identified at diagnosis, but repeat sequencing did not detect bZIP CEBPA mutation. MLL was detected at diagnosis. BRAF was detected at diagnosis. Molecular analysis did not identify IKZF1 N159Y. Findings are suggestive of ETV6."
+R0069,"A family member was previously found to carry IDH1. minimal residual disease was identified at diagnosis, but repeat sequencing did not detect minimal residual disease. No BCR was detected. NPM1 was identified at diagnosis, but repeat sequencing did not detect NPM1."
+R0070,Molecular testing confirmed TP53 R248Q. Testing was negative for IDH1 p.R132H. CEBPA cannot be excluded. Molecular analysis did not identify RUNX1. BRAF cannot be excluded.
+R0071,EGFR exon 19 deletion was detected at diagnosis. Molecular analysis did not identify MLL. A possible JAK2 was identified. Molecular testing confirmed IDH2 R140Q.
+R0072,A family member was previously found to carry RET. Findings are suggestive of BCR::ABL1. No PML::RARA PCR was detected.
+R0073,"PAX5 was previously detected, but current testing was negative for PAX5. No RARA was detected. c-KIT cannot be excluded. Molecular testing confirmed ERBB2. Testing was negative for ETV6."
+R0074,PD-L1 expression was previously identified. Findings are suggestive of ALK. A possible NPM1 mutation was identified. IDH1 p.R132H was previously identified.
+R0075,Philadelphia chromosome was identified. Testing was negative for PD-L1 TPS. Molecular testing confirmed PAX5 p.P80R.
+R0076,The patient's mother carried IDH1. A family member was previously found to carry RUNX1. Testing was negative for CRLF2. No FLT3 tyrosine kinase domain mutation was detected. TP53 p.R175H cannot be excluded.
+R0077,PML/RARA was detected. The patient's mother carried CBFB-MYH11. No IDH2 R140Q was detected. Molecular analysis did not identify IDH2. TP53 p.R175H was identified.
+R0078,"A family member was previously found to carry JAK-STAT pathway alteration. Molecular testing confirmed HER2 mutation. The patient's father carried IDH1 R132C. MET was previously detected, but current testing was negative for MET."
+R0079,"BCR-ABL1 transcript was previously detected, but current testing was negative for BCR-ABL1 transcript. Molecular testing confirmed ROS1. No IDH1 p.R132C was detected. A possible KRAS G12C was identified."
+R0080,"ROS1-rearranged was detected. KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A. RET was previously identified. A possible METex14 was identified. KRAS was previously identified."
+R0081,"IKZF1 was previously detected, but current testing was negative for IKZF1. PML::RARA was detected. BCR::ABL1 was present on initial molecular testing. NPM1-mutated was previously detected, but current testing was negative for NPM1-mutated."
+R0082,"DNMT3A was previously detected, but current testing was negative for DNMT3A. A possible CRLF2 was identified. Molecular testing confirmed R172K IDH2. Molecular analysis did not identify EGFR. PAX5 p.P80R was detected at diagnosis."
+R0083,"Ph-positive was present on initial molecular testing. A family member was previously found to carry R140Q IDH2. A family member was previously found to carry BCR. RARA was previously detected, but current testing was negative for RARA."
+R0084,MRD cannot be excluded. No RUNX1 was detected. No JAK2 was detected.
+R0085,A possible ROS1 fusion was identified. Findings are suggestive of PML. The patient's mother carried ETV6::RUNX1. Molecular analysis did not identify ALK. RET was identified.
+R0086,"Findings are suggestive of ROS1. KRAS G12C was identified. Molecular testing confirmed BRAF. ALK was identified at diagnosis, but repeat sequencing did not detect ALK."
+R0087,RARA was identified. Testing was negative for MRD. DNMT3A cannot be excluded.
+R0088,"Molecular analysis did not identify BRAF V600E. KRAS was identified at diagnosis, but repeat sequencing did not detect KRAS. Molecular testing confirmed CBFB-MYH11."
+R0089,"Molecular testing confirmed KRAS. IDH1 was present on initial molecular testing. RET was identified at diagnosis, but repeat sequencing did not detect RET."
+R0090,"Testing was negative for BCR/ABL1 transcript. IDH1 was previously detected, but current testing was negative for IDH1. PAX5 was detected at diagnosis."
+R0091,A possible BCR/ABL1 transcript was identified. No ROS1 rearrangement was detected. Molecular testing confirmed FLT3 internal tandem duplication. Molecular testing confirmed measurable residual disease.
+R0092,IKZF1 p.N159Y was identified. Molecular analysis did not identify KIT p.D816V. No FLT3 internal tandem duplication was detected.
+R0093,"BRAF V600E was identified at diagnosis, but repeat sequencing did not detect BRAF V600E. No HER2 was detected. MET was present on initial molecular testing."
+R0094,"BCR was identified. DNMT3A was detected at diagnosis. PAX5 P80R cannot be excluded. MET exon 14 skipping was identified at diagnosis, but repeat sequencing did not detect MET exon 14 skipping."
+R0095,"A possible ERBB2 expression was identified. The patient's mother carried CEBPA. MET was previously identified. MRD was previously detected, but current testing was negative for MRD."
+R0096,The patient's mother carried FLT3 tyrosine kinase domain mutation. A possible BRAF was identified. ROS1 rearrangement was previously identified.
+R0097,"Findings are suggestive of RUNX1. CRLF2 was identified at diagnosis, but repeat sequencing did not detect CRLF2. KIT was identified. Findings are suggestive of R132H IDH1. KMT2A-rearranged was previously detected, but current testing was negative for KMT2A-rearranged."
+R0098,"FLT3 internal tandem duplication was previously detected, but current testing was negative for FLT3 internal tandem duplication. RUNX1 was identified at diagnosis, but repeat sequencing did not detect RUNX1. ETV6-RUNX1 was identified. Testing was negative for CRLF2. TP53 p.R175H was detected at diagnosis."
+R0099,"Molecular testing confirmed mutated NPM1. KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A. A family member was previously found to carry KMT2A."
+R0100,"NPM1-mutated was previously detected, but current testing was negative for NPM1-mutated. bZIP CEBPA mutation was present on initial molecular testing. KMT2A rearrangement was identified at diagnosis, but repeat sequencing did not detect KMT2A rearrangement. A family member was previously found to carry RUNX1-RUNX1T1."
+R0101,"FLT3 was previously identified. RET-rearranged was identified at diagnosis, but repeat sequencing did not detect RET-rearranged. FLT3 ITD was previously identified. The patient's mother carried RUNX1."
+R0102,"TP53 R248Q was identified at diagnosis, but repeat sequencing did not detect TP53 R248Q. A family member was previously found to carry PML::RARA. The patient's father carried RUNX1."
+R0103,The patient's father carried CEBPA bZIP mutation. MRD was identified. A possible MET was identified.
+R0104,No minimal residual disease was detected. MET exon 14 skipping cannot be excluded. Findings are suggestive of BCR::ABL1.
+R0105,CRLF2 was present on initial molecular testing. KIT D816V was present on initial molecular testing. TP53 p.R248Q was detected. TP53 cannot be excluded. The patient's mother carried ABL1.
+R0106,Molecular analysis did not identify FLT3 ITD. The patient's mother carried ETV6. Molecular testing confirmed IDH2 R172K. A family member was previously found to carry RUNX1.
+R0107,"The patient's mother carried FLT3 ITD. The patient's mother carried KIT D816V. KMT2A was identified at diagnosis, but repeat sequencing did not detect KMT2A. ROS1 was identified. FLT3 was present on initial molecular testing."
+R0108,"BCR/ABL1 was detected. PML::RARA was identified at diagnosis, but repeat sequencing did not detect PML::RARA. Testing was negative for IDH1. A family member was previously found to carry PAX5 P80R."
+R0109,Molecular analysis did not identify ERBB2. EGFR exon 19 deletion was previously identified. No KMT2A rearrangement was detected.
+R0110,IKZF1 was previously identified. RUNX1 was identified. Findings are suggestive of HER2 activating mutation.
+R0111,measurable residual disease was previously identified. IDH2 R172K was detected at diagnosis. Ph+ was previously identified. KRAS cannot be excluded.
+R0112,ROS1 cannot be excluded. Molecular testing confirmed FLT3 ITD. A possible KRAS was identified. The patient's father carried MLL rearrangement. Testing was negative for PD-L1 expression.
+R0113,"MET cannot be excluded. CEBPA was identified at diagnosis, but repeat sequencing did not detect CEBPA. The patient's mother carried PAX5 p.P80R. No KRAS was detected."
+R0114,"Findings are suggestive of c-KIT. FLT3 internal tandem duplication was detected. JAK/STAT pathway alteration was identified at diagnosis, but repeat sequencing did not detect JAK/STAT pathway alteration."
+R0115,"A possible BRAF was identified. MLL was previously detected, but current testing was negative for MLL. Molecular testing confirmed TP53 p.R248Q. Molecular analysis did not identify ROS1 rearrangement."
+R0116,A family member was previously found to carry IDH2 R172K. PML-RARA transcript was detected at diagnosis. Testing was negative for MET. No PML was detected.
+R0117,"IKZF1 cannot be excluded. IKZF1 p.N159Y was identified at diagnosis, but repeat sequencing did not detect IKZF1 p.N159Y. The patient's mother carried KIT. No HER2 expression was detected. PD-L1 TPS was previously identified."
+R0118,"BCR/ABL1 was identified. HER2 was identified at diagnosis, but repeat sequencing did not detect HER2. ERBB2 expression was detected at diagnosis. Molecular analysis did not identify TP53 R175H. FLT3 D835Y was identified."
+R0119,Molecular analysis did not identify ALK-rearranged. Molecular testing confirmed IKZF1 p.N159Y. No TP53 R175H was detected. Molecular analysis did not identify HER2 IHC. Molecular analysis did not identify KMT2A-rearranged.
+R0120,Findings are suggestive of FLT3-ITD. Findings are suggestive of PML::RARA fusion. Molecular testing confirmed NPM1 transcript MRD. Molecular analysis did not identify ERBB2 expression.

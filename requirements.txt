@@ -9,3 +9,6 @@ sentence-transformers
 torch
 joblib
 streamlit
+fastapi
+uvicorn[standard]
+pydantic
